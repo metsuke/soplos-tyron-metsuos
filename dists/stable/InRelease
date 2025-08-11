@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: SoplosLinux
+Label: SoplosLinux
+Suite: stable
+Codename: stable
+Version: 1.0
+Date: Mon, 11 Aug 2025 11:51:42 UTC
+Architectures: amd64
+Components: main
+Description: Repositorio de SoplosLinux
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/Contents-amd64
+ 7029066c27ac6f5ef18d660d5741979a 20 main/Contents-amd64.gz
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/Contents-amd64
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/Contents-amd64.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/Contents-amd64
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/Contents-amd64.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAmiZ2U4ACgkQOyP2YT2t
+HCnASw//W1tOGCxuMBY+EP0feZIY5rh+opSCFb3rNNNGgoN9Fzn6Lrlm0PmPkztL
+hauWdp70tElagq+sovgE5wKmTseFGwxJQlpN65LIdRof0MjC2AcCsslD9bMsqWTH
+sal3ihLRdd3KK1GYjOTNjWVm+moBpY1ux0FFFWl8yvxTdTQvPQSmPvYQmn51BhXD
+Q93MXc95dbhv5EC+Ct4hVAJruNG8Yvy1TXgC7TiKWjkaQ1NkjTvk0yIEbBD7pCS4
+o3+yTSeROjQqaS1f0e0qU4y6x/LFNI7WOAh1jeIzQ3PtXuP5ia9OyZCZJE/0EQ9Z
+Cx6QDPENgzLz5F9Qwlp42jlNyNbJ2B2qO6MdeZwhRksG2+faRyX0pV3HOF/Q4T4F
+tGDeLoK8zZlYpNHvfxo42PcqhBLqWSlJxwwXaqodip4pwHtuHC1jHfCQPnH3IuHw
+/GCz8d3NiCXxLsQmCfs827cP+5/HbzpJ+5RDq8SGUlFUx00VzyK7CoGX8bfDR9k9
+304CVFsaKSoi5DYORnhPv/U7Md5wXgeODvuciVcUvsq2nlnBVH4o6fZ8fjaKL50J
+u9YvCpMmRQQLDv/1cFd4Nmi+vDMY5E8lhyEnowe94dC02KAycQ75ZPinCRJ8ikrL
+zR5FF7KOW7GNMUN3uERxl8edRNIFqNpOqx8bfRKbXyf5x0BBbRY=
+=z/HP
+-----END PGP SIGNATURE-----

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.soplos.thememanager.desktop</id>
+  <pkgname>soplos-theme-manager</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
+
+  <name>Soplos Theme Manager</name>
+  <name xml:lang="es">Gestor de Temas Soplos</name>
+  <name xml:lang="fr">Gestionnaire de Thèmes Soplos</name>
+  <name xml:lang="pt">Gerenciador de Temas Soplos</name>
+  <name xml:lang="de">Soplos Themen-Manager</name>
+  <name xml:lang="it">Gestore Temi Soplos</name>
+  <name xml:lang="ru">Менеджер тем Soplos</name>
+  <name xml:lang="ro">Manager Teme Soplos</name>
+
+  <summary>Theme manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor de temas para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire de thèmes pour Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador de temas para Soplos Linux</summary>
+  <summary xml:lang="de">Themen-Manager für Soplos Linux</summary>
+  <summary xml:lang="it">Gestore dei temi per Soplos Linux</summary>
+  <summary xml:lang="ru">Менеджер тем для Soplos Linux</summary>
+  <summary xml:lang="ro">Manager de teme pentru Soplos Linux</summary>
+
+  <description>
+    <p>A simple and intuitive theme manager for Soplos Linux that allows you to create, save, and apply desktop themes easily.</p>
+    <p xml:lang="es">Un gestor de temas simple e intuitivo para Soplos Linux que te permite crear, guardar y aplicar temas de escritorio fácilmente.</p>
+    <p xml:lang="fr">Un gestionnaire de thèmes simple et intuitif pour Soplos Linux qui vous permet de créer, sauvegarder et appliquer des thèmes de bureau facilement.</p>
+    <p xml:lang="pt">Um gerenciador de temas simples e intuitivo para Soplos Linux que permite criar, salvar e aplicar temas de desktop facilmente.</p>
+    <p xml:lang="de">Ein einfacher und intuitiver Theme-Manager für Soplos Linux, mit dem Sie Desktop-Themes einfach erstellen, speichern und anwenden können.</p>
+    <p xml:lang="it">Un gestore di temi semplice e intuitivo per Soplos Linux che ti permette di creare, salvare e applicare temi desktop facilmente.</p>
+    <p xml:lang="ru">Простой и интуитивно понятный менеджер тем для Soplos Linux, который позволяет легко создавать, сохранять и применять темы рабочего стола.</p>
+    <p xml:lang="ro">Un manager de teme simplu și intuitiv pentru Soplos Linux care vă permite să creați, salvați și aplicați teme desktop cu ușurință.</p>
+  </description>
+
+  <categories>
+    <category>Settings</category>
+    <category>DesktopSettings</category>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <requires>
+    <id>python3</id>
+    <id>python3-gi</id>
+    <id>python3-pyqt5</id>
+    <id>gtk3</id>
+  </requires>
+
+  <keywords>
+    <keyword>theme</keyword>
+    <keyword xml:lang="en">theme</keyword>
+    <keyword>themes</keyword>
+    <keyword xml:lang="en">themes</keyword>
+    <keyword>style</keyword>
+    <keyword xml:lang="en">style</keyword>
+    <keyword>appearance</keyword>
+    <keyword xml:lang="en">appearance</keyword>
+    <keyword>customize</keyword>
+    <keyword xml:lang="en">customize</keyword>
+    <keyword>xfce</keyword>
+    <keyword xml:lang="en">xfce</keyword>
+    <keyword>desktop</keyword>
+    <keyword xml:lang="en">desktop</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="en">soplos</keyword>
+    <keyword xml:lang="es">tema</keyword>
+    <keyword xml:lang="es">temas</keyword>
+    <keyword xml:lang="es">apariencia</keyword>
+    <keyword xml:lang="es">personalizar</keyword>
+    <keyword xml:lang="es">escritorio</keyword>
+    <keyword xml:lang="es">soplos</keyword>
+    <keyword xml:lang="fr">thème</keyword>
+    <keyword xml:lang="fr">thèmes</keyword>
+    <keyword xml:lang="fr">apparence</keyword>
+    <keyword xml:lang="fr">personnaliser</keyword>
+    <keyword xml:lang="fr">bureau</keyword>
+    <keyword xml:lang="fr">soplos</keyword>
+    <keyword xml:lang="pt">tema</keyword>
+    <keyword xml:lang="pt">temas</keyword>
+    <keyword xml:lang="pt">aparência</keyword>
+    <keyword xml:lang="pt">personalizar</keyword>
+    <keyword xml:lang="pt">desktop</keyword>
+    <keyword xml:lang="pt">soplos</keyword>
+    <keyword xml:lang="de">thema</keyword>
+    <keyword xml:lang="de">themen</keyword>
+    <keyword xml:lang="de">erscheinungsbild</keyword>
+    <keyword xml:lang="de">anpassen</keyword>
+    <keyword xml:lang="de">desktop</keyword>
+    <keyword xml:lang="de">soplos</keyword>
+    <keyword xml:lang="it">tema</keyword>
+    <keyword xml:lang="it">temi</keyword>
+    <keyword xml:lang="it">aspetto</keyword>
+    <keyword xml:lang="it">personalizzare</keyword>
+    <keyword xml:lang="it">desktop</keyword>
+    <keyword xml:lang="it">soplos</keyword>
+    <keyword xml:lang="ru">тема</keyword>
+    <keyword xml:lang="ru">темы</keyword>
+    <keyword xml:lang="ru">внешний вид</keyword>
+    <keyword xml:lang="ru">настроить</keyword>
+    <keyword xml:lang="ru">рабочий стол</keyword>
+    <keyword xml:lang="ru">soplos</keyword>
+    <keyword xml:lang="ro">temă</keyword>
+    <keyword xml:lang="ro">teme</keyword>
+    <keyword xml:lang="ro">aspect</keyword>
+    <keyword xml:lang="ro">personalizare</keyword>
+    <keyword xml:lang="ro">desktop</keyword>
+    <keyword xml:lang="ro">soplos</keyword>
+  </keywords>
+
+  <translation type="gettext">
+    <locale>es</locale>
+    <locale>en</locale>
+    <locale>fr</locale>
+    <locale>pt</locale>
+    <locale>de</locale>
+    <locale>it</locale>
+    <locale>ru</locale>
+    <locale>ro</locale>
+  </translation>
+
+  <launchable type="desktop-id">com.soplos.thememanager.desktop</launchable>
+
+  <icon type="stock">soplos-theme-manager</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/icons/com.soplos.thememanager.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Interfaz del programa</caption>
+      <caption xml:lang="es">Interfaz del programa</caption>
+      <caption xml:lang="en">Program interface</caption>
+      <caption xml:lang="fr">Interface du programme</caption>
+      <caption xml:lang="pt">Interface do programa</caption>
+      <caption xml:lang="de">Programmoberfläche</caption>
+      <caption xml:lang="it">Interfaccia del programma</caption>
+      <caption xml:lang="ru">Интерфейс программы</caption>
+      <caption xml:lang="ro">Interfața programului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Selector de temas para xfce</caption>
+      <caption xml:lang="es">Selector de temas para xfce</caption>
+      <caption xml:lang="en">Theme selector for xfce</caption>
+      <caption xml:lang="fr">Sélecteur de thèmes pour xfce</caption>
+      <caption xml:lang="pt">Seletor de temas para xfce</caption>
+      <caption xml:lang="de">Themenauswahl für xfce</caption>
+      <caption xml:lang="it">Selettore di temi per xfce</caption>
+      <caption xml:lang="ru">Выбор тем для xfce</caption>
+      <caption xml:lang="ro">Selector de teme pentru xfce</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Selector para eliminar temas</caption>
+      <caption xml:lang="es">Selector para eliminar temas</caption>
+      <caption xml:lang="en">Theme removal selector</caption>
+      <caption xml:lang="fr">Sélecteur pour supprimer des thèmes</caption>
+      <caption xml:lang="pt">Seletor para remover temas</caption>
+      <caption xml:lang="de">Auswahl zum Entfernen von Themen</caption>
+      <caption xml:lang="it">Selettore per eliminare temi</caption>
+      <caption xml:lang="ru">Выбор для удаления тем</caption>
+      <caption xml:lang="ro">Selector pentru ștergerea temelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Nombrar nuevos temas</caption>
+      <caption xml:lang="es">Nombrar nuevos temas</caption>
+      <caption xml:lang="en">Name new themes</caption>
+      <caption xml:lang="fr">Nommer de nouveaux thèmes</caption>
+      <caption xml:lang="pt">Nomear novos temas</caption>
+      <caption xml:lang="de">Neue Themen benennen</caption>
+      <caption xml:lang="it">Assegnare un nome ai nuovi temi</caption>
+      <caption xml:lang="ru">Назвать новые темы</caption>
+      <caption xml:lang="ro">Denumiți teme noi</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="contact">https://soploslinux.com/foros/</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Sergi Perich</name>
+    <name xml:lang="es">Sergi Perich</name>
+    <name xml:lang="fr">Sergi Perich</name>
+    <name xml:lang="pt">Sergi Perich</name>
+    <name xml:lang="de">Sergi Perich</name>
+    <name xml:lang="it">Sergi Perich</name>
+    <name xml:lang="ru">Sergi Perich</name>
+    <name xml:lang="ro">Sergi Perich</name>
+    <url type="homepage">https://soploslinux.com</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-theme-manager</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.3" date="2025-07-27">
+      <description>
+        <p>Cambio de icono del programa.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="fr">Changement de l'icône du programme.</p>
+        <p xml:lang="pt">Alteração do ícone do programa.</p>
+        <p xml:lang="de">Programmicon geändert.</p>
+        <p xml:lang="it">Cambiata l'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">Schimbare pictogramă a programului.</p>
+      </description>
+    </release>
+    <release version="1.0.2" date="2025-07-18">
+      <description>
+        <p>Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
+        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
+        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance.</p>
+        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11.</p>
+        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11.</p>
+        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität.</p>
+        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11.</p>
+        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11.</p>
+        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11.</p>
+      </description>
+    </release>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+  </content_rating>
+
+  <languages>
+    <lang percentage="100">es</lang>
+    <lang percentage="100">en</lang>
+    <lang percentage="100">fr</lang>
+    <lang percentage="100">pt</lang>
+    <lang percentage="100">de</lang>
+    <lang percentage="100">it</lang>
+    <lang percentage="100">ru</lang>
+    <lang percentage="100">ro</lang>
+  </languages>
+</component>

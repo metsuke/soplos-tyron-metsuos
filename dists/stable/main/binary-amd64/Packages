@@ -1,3 +1,55 @@
+Package: branding-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Replaces: soplos-release (<= 0.1.4)
+Conflicts: soplos-release (<= 0.1.4)
+Priority: optional
+Section: misc
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1_all.deb
+Size: 13852356
+SHA256: 303f32199adfdfc71ad1d8beb9190a6c927765d6b885bb83e3f91cb1f7eefc30
+SHA1: d6fc46fa76e5b776ece8fa476f72d37df2342a62
+MD5sum: 63b50e1b8f410715dd4b4e3be1ae3d70
+Description: Branding y recursos gráficos de SopLOS
+ Este paquete contiene los archivos de branding y recursos gráficos
+ para SopLOS Linux Tyron.
+
+Package: fastfetch-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.1_all.deb
+Size: 1932
+SHA256: 2e1414f4b1ed5174dbcb8b581e9f41e46a55865b629d9c159c66a3106543ef52
+SHA1: b62967c9b3492d61dcd04d99a35f966eb6446304
+MD5sum: 2408831ee1c09d71d6c7d797d8f48ce8
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
+Package: kitty-soplos
+Version: 0.0.3
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: kitty
+Replaces: bash (<< 5.3)
+Priority: optional
+Section: utils
+Filename: pool/main/k/kitty-soplos/kitty-soplos_0.0.3_all.deb
+Size: 34312
+SHA256: 18e9223f38715ab0ecc2922a59885a0c5c5bfcecee3f090c46d0608970c8252e
+SHA1: cceae6864ffa745860ddf82792fd692896ccc81e
+MD5sum: dc2a3da24b7362b6dd5403946ac7f0d8
+Description: Custom Kitty configuration for SopLOS
+ This package provides a custom Kitty terminal configuration and theming
+ for SopLOS Linux, applied to both new and existing users.
+ .
+ This package includes an enhanced .bashrc with Soplos Linux branding.
+
 Package: msi-keyboard-gui
 Version: 1.0.7
 Architecture: all
@@ -40,6 +92,21 @@ SHA1: dc761472a56e7b991d1a146d5d302077e36a4227
 MD5sum: 9562cae09d0a9dd765feb714467df6d0
 Description: Advanced GRUB configuration editor with complete internationalization
 
+Package: soplos-grub-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.1_all.deb
+Size: 2106064
+SHA256: 853e9cbeaec04a059db3eaf2e8c409dd6c07da5a898fbdc784c23075d610d401
+SHA1: 0e3c55b662dcf95525f83fe3416298d1c350e761
+MD5sum: e9cbb278e0ee2be5de47e3fd90dd5b30
+Description: GRUB theme package for Soplos Linux Tyson.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
+ Build date: 2025-07-27
+
 Package: soplos-plymouth-manager
 Version: 1.0.4
 Architecture: all
@@ -53,6 +120,43 @@ SHA256: aa7bc11c8ec8416b761fa120cf9584bd0ec163f458815aef888f035613790b76
 SHA1: 26bb5e32b8fe59f078905971737ac05cdf49bfa3
 MD5sum: 3aae07babb9804897e1ac29b5575f2de
 Description: Plymouth boot splash theme manager for Soplos Linux
+
+Package: soplos-plymouth-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.1_all.deb
+Size: 255012
+SHA256: bc1dfb30118326d6f3b3db961c1cfac9782f44d51cc84c2766a998287e1382f7
+SHA1: 33ee3ffa601357f2454f9701ea538cbea9d2f59c
+MD5sum: 36c270ee5d4cc6106ae6625186c09568
+Description: Soplos Plymouth theme.
+ This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
+ Build date: 2025-07-27
+
+Package: soplos-release
+Version: 0.1.7
+Architecture: all
+Maintainer: Sergi Perich
+Priority: required
+Section: admin
+Filename: pool/main/s/soplos-release/soplos-release_0.1.7_all.deb
+Size: 2276
+SHA256: e66c96aa3e21f797702f9d647c2ff74f70b701416245c932d15760dab8d8ddb7
+SHA1: 776d92f585c61c883cce4fb2ff14a15b048d4807
+MD5sum: 871a45c8856f176042921de87c1c4274
+Description: Soplos Linux release information (internal system package)
+ This package contains release information and version files for Soplos Linux.
+ It is essential for operating system identification.
+ .
+ This is an internal system package and does not provide any user interface.
+ This release corresponds to Soplos Linux Tyron Beta 1.
+Essential: yes
+Replaces: base-files
+Conflicts: base-files (<< 13.7)
+Depends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
 
 Package: soplos-repo-selector
 Version: 1.0.4
@@ -81,6 +185,36 @@ SHA256: 23a591cc40002750f2a6a439e273ece59adb416a542b5115a8e4322e14434b49
 SHA1: 70d3ad23be9dbc58cf03cb7f9ee213ca1cc7d110
 MD5sum: 8827152df8695134b1b173517545484e
 Description: Theme manager for Soplos Linux
+
+Package: soplos-wallpapers01
+Version: 0.0.1
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.1_all.deb
+Size: 34258712
+SHA256: de1b14e1e7c7985f03cbd3df3943e08b3b3931a2798d1d0fc83ccbde57364cac
+SHA1: 0ed56c7530ae03877191055ced5effcf9219b665
+MD5sum: 5981661af383d6a6ebb52e7043818e00
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
+Package: soplos-wallpapers02
+Version: 0.0.1
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_0.0.1_all.deb
+Size: 32270188
+SHA256: be8d5deb8a3004827e008f7173d43dec870ab23e472839df3716c04bf07d2c15
+SHA1: 10dc1586089e14fd6f1bb7847c3ea8726fafde4e
+MD5sum: e55be1e665fa0ddbd6a2e83d006f8933
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-welcome
 Version: 1.1.3

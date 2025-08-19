@@ -17,7 +17,6 @@ etc/apt/sources.list.d/tyron.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/skel/.bashrc	    utils/kitty-soplos
 etc/skel/.config/Thunar/uca.xml	    utils/kitty-soplos
-etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 etc/skel/.config/kitty/kitty.conf	    utils/kitty-soplos
 etc/skel/.config/kitty/soplos_linux.conf	    utils/kitty-soplos
 etc/skel/.config/xfce4/helpers.rc	    utils/kitty-soplos

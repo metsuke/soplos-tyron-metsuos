@@ -15,6 +15,22 @@ Description: Branding y recursos gráficos de SopLOS
  Este paquete contiene los archivos de branding y recursos gráficos
  para SopLOS Linux Tyron.
 
+Package: fastfetch-soplos
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.2_all.deb
+Size: 1920
+SHA256: 75c0ce806f0fd74c9192ebca656357ab983dfa2db30ba7a7005a1454203a9b75
+SHA1: 61172c34994767747fdd0486473199438817977d
+MD5sum: ce3bd1269bddc3f5aed3027e9bb9f9a2
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
 Package: kitty-soplos
 Version: 0.0.3
 Architecture: all

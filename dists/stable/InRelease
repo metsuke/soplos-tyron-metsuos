@@ -6,56 +6,56 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Thu, 21 Aug 2025 12:07:22 UTC
+Date: Thu, 21 Aug 2025 12:07:36 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 508f07e6fbd8d6abb8c150c7aaba37fe 10729 main/binary-amd64/Packages
- 553acc9b4e44720e4fcb5dbfc1396725 3505 main/binary-amd64/Packages.gz
+ e282ffd31db489724070cbf170da16c6 11159 main/binary-amd64/Packages
+ 1b265c40eea0a01db429f15333285611 3675 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
- 823935ad470d54ed6e381eb6783553bf 63194 main/Contents-amd64
- 966bdf639691468dfb21906a312e9794 4692 main/Contents-amd64.gz
- 1d1df774a6300d52e690db07171f9efc 22940 main/dep11/Components-amd64.yml.gz
- b9d305989d31701a8acac6c828456f25 99803 main/dep11/Components-amd64.yml
+ c67925047a0f6a4b2f1b2afae6bef4d5 63230 main/Contents-amd64
+ 978a8a3bb5d4fecc24e6120d89600be2 4709 main/Contents-amd64.gz
+ a3273954fcd2213ee4f6b41c52e90c44 22940 main/dep11/Components-amd64.yml.gz
+ 9d54dd2e8f0fd1d9a88446d865899af6 99803 main/dep11/Components-amd64.yml
  0fbb100f74b880b44a0db36c84cd3ea9 51200 main/dep11/icons-48x48.tar
  39075957eda389ca3695a650fdf9ec71 61440 main/dep11/icons-64x64.tar
  b8419f53f45e371d5447369ea8767df4 143360 main/dep11/icons-128x128.tar
 SHA1:
- d544be74bd1df3770f1eb513fa94eb697d8cf2c4 10729 main/binary-amd64/Packages
- 04f8affaae2a8f961bd1b9bba3936632324e568b 3505 main/binary-amd64/Packages.gz
+ e9bb8227b68d7bbc10ac5393547fcbc97188be58 11159 main/binary-amd64/Packages
+ 3b895e610b74fb68136a5b5b994e978f2b3ab650 3675 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
- 60cf19a4df33cc3c8f91f23a51f91aedb62b0b3c 63194 main/Contents-amd64
- a8de1f65165e7728c4b00ce6bc26257c3bb36a52 4692 main/Contents-amd64.gz
- bafb7b64ddc2a50354a839a8b85e283e2c3d4dff 22940 main/dep11/Components-amd64.yml.gz
- bd02d31fe597f7c293a8531afc0b9c047a87fed3 99803 main/dep11/Components-amd64.yml
+ 0c37bb7dbec710753213b37e73406ac388e9594a 63230 main/Contents-amd64
+ 39527fa929aa5d94a33d103bacee5144924e4063 4709 main/Contents-amd64.gz
+ f6470f575dfd920d65567c8778430222b88c3878 22940 main/dep11/Components-amd64.yml.gz
+ e9975a0caf9c7833c9f7266c868b7f0e3f8122fe 99803 main/dep11/Components-amd64.yml
  0c129e2345bc35708436aff5020e3b562f67ac31 51200 main/dep11/icons-48x48.tar
  320720238f8687d593bc67f58b48c0f3800eeb5a 61440 main/dep11/icons-64x64.tar
  59fc8bc9d735e5493bd6c5a3c74aaa504114a6f7 143360 main/dep11/icons-128x128.tar
 SHA256:
- 22a69c1cb046d45f59ff4eb20c60a1ef880513bb777a013a07d41d69300f68f8 10729 main/binary-amd64/Packages
- de66d67d29a404a972de6f2bff83687c6e6fc39d0f2384c110e5c6f7a2ce7dbd 3505 main/binary-amd64/Packages.gz
+ 9686420292548064eafdfbb40885a789abd210c3215a84665d8e0c0a6f88bbb0 11159 main/binary-amd64/Packages
+ 1f25d28c8ec2e7c54e4526e6bce5bd118b99a2859266b0cf9afd3999232ec92e 3675 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
- ee44ce31fe82df5a10ee804add6668143e114231cf4db1dde7e319d77bf2e00a 63194 main/Contents-amd64
- 65375d6663969891dcfe31f0bf88d0466c759b17fe759277d5a98d0233be4698 4692 main/Contents-amd64.gz
- 3cb8dea7d5f62eb48651758d00753c610707e9fd9328546702c7c1f25f954212 22940 main/dep11/Components-amd64.yml.gz
- 1e0976e535dd2b57a3eda7db17b37f8cc1445260d9e1284ac17cb5f78be40ad4 99803 main/dep11/Components-amd64.yml
+ e9bceb4064fd20f5756619f8d4f622cfe69109f58bb7f89dc97407c07fb54183 63230 main/Contents-amd64
+ d726ba713f5ebc8e95784cf560a5a931b9b0d668ac336daa84c7bce9b81b246a 4709 main/Contents-amd64.gz
+ 8e44459520fc8d96f5356912081a3aa68c6b4509b5c0dfe296dffbac21729643 22940 main/dep11/Components-amd64.yml.gz
+ ca56d83111a2b8e8ee9de06d76f89bd12f0487f1fd091b9630feef2982593b14 99803 main/dep11/Components-amd64.yml
  3bc88da8f19ad1084ad734e55b0947e7b8343b73bb9020376708d05dd290c69e 51200 main/dep11/icons-48x48.tar
  c7e1411a0b5412939465255555714c25d4b743caee2ed2b6a9ecd44a2f122e7f 61440 main/dep11/icons-64x64.tar
  aa5c06444ff3bafbe993d6df36c5ee98c47e07c870ba7145fbeb44292c539682 143360 main/dep11/icons-128x128.tar
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAminC/sACgkQOyP2YT2t
-HClLFBAArbsfzc1g3uJypHHOreHF94iZhXTVXKI8eMIUF79LTwKVPlWw/7ozPEdt
-ub/TmVu6oH9ScKjA1Fsc75+CNgl+PSnTOvLQZ+z5S1LEpi2iTo4SXrj/0t3mHg/6
-QMxh/kC5k8PA4LHEr2fL6LoYFU4+UdCSr35D2QJXErBynaqZ50PMrbnPJAVNO+jE
-Lb/oPe+l7ej4yAe5EwCli1k4Qg0OWGGva9LJHJoNNH0T0RFjDvATdWBUWHVUPiid
-DOMjyyPeNorOmcX1qAmeCh9IAolcfeucixpwkL98b6xukleA2E2JVWtU21Ua3vJb
-7BBEuLW4o/FwMBDo2YqF9KK0Ylh2TEQVUj+89ANtndbNzd8+jTsGIvI0k1TNnDLJ
-XbqhwIWBHuzBgDXKXLEAxBxzP22JcvbXCQmRRRBYjJgLV5hoBHe/kB0g0XWDtslY
-d/lSY7y80tNWX0q3bntGqvlj7JUMJFMjSVX01RrIJoVYTkKtg1HdMBJBoEcISYwS
-plW6NE3K60fX/s1uVSaA/JE+GSkrFrpZoZ4CHpuBVi2qQCoFcV9StAOO7ipX8JLi
-ON/tEdQa8c2hmkCqlql/N5ZHoKHePXlMDhG6OXlPtBVJNZXTH8dEus2+h5l8MgRZ
-91PvZiUfGKSCVH7YBxHAYJiuxUw7VX8xkLKWZpg2WMA812Wa4+I=
-=25Cf
+iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAminDAgACgkQOyP2YT2t
+HCkunA//bUi+50+QoicKkVYPM9i8F2XgejNp0iFB+ZNUUF3q9TlVDCc6oXqSDVXl
+fjF9OyH/XvHnVwTOlH+bnfDG7JNJrLZNX/AJkLYPlm5S5FAIgl5SdJ/zzzAE2p7x
+aJmFrUJUOHixDsl/DVMcH7pj2ih6fjo+iKve54DoXtZQFfROn5MVRmDkcHz+479F
+XZJ4rCuKsW6a4yB4aDodYD4TwjVVzwdzYLEFySb25XBOiztwMItm4mJyGITwDOGE
+OzsaCqn8zmamjmBRgxr2W+WwYL4HOxW6eqpoPewN6INar2hj5ZmrYE6rQq/OPWwz
+JgSCC6IDTaHsGiDfGOPA++FGgbKV/CGBSaNVfI/KFj9W0Wex5gUHDt/HCvSirB3b
+MuQOLaiFhh5Z4rjOx5Lk5un5GYdnpGdmvkpq5JoK8LeIX7x0LAYvCE1OJ+bnMI1I
+0NfNgjyItF1O+W0Fb2pP/VGAbPQ44Ec7S4E/FCefgdh2jZVcfPMyzH5LEo/nwVLX
+bB6FLXv7UACP+WA+1/IYO8P06lnsXX8E/OG68D6mROMM2yFFdNbj9nXXfIeAuz9Q
+fklPeyopoH6b0pC2Iv7JvbnJz9oHL6W2aF/8GM0hZ2nmmSAsizuqBUz057S/nbpK
+ch0ol0Uy0ZsP0pScSV8tH6nBLrDPR6E0ObvyxyNc1fLvaulfGFg=
+=i4gV
 -----END PGP SIGNATURE-----

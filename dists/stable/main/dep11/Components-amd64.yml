@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media
-Time: 20250821T120736
+Time: 20250908T181951
 ---
 Type: desktop-application
 ID: com.soplos.reposelector.desktop
@@ -1019,6 +1019,14 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 1.1.4
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: Fixed welcome tab link buttons (website, forums, wiki).
+      es: Corregidos los botones de enlaces en la pestaña de bienvenida (web, foros,
+        wiki).
+      en: Fixed welcome tab link buttons (website, forums, wiki).
   - version: 1.1.3
     date: '2025-07-28'
     type: stable

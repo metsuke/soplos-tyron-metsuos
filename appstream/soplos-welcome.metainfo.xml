@@ -271,6 +271,16 @@
   </provides>
 
   <releases>
+    <release version="1.1.4" date="2025-09-08">
+      <description>
+        <p>Updated Blender icon to the requested image.</p>
+        <p>Fixed welcome tab link buttons (website, forums, wiki).</p>
+        <p xml:lang="es">Actualizado el icono de Blender con la imagen requerida.</p>
+        <p xml:lang="es">Corregidos los botones de enlaces en la pestaña de bienvenida (web, foros, wiki).</p>
+        <p xml:lang="en">Updated Blender icon to the requested image.</p>
+        <p xml:lang="en">Fixed welcome tab link buttons (website, forums, wiki).</p>
+      </description>
+    </release>
     <release version="1.1.3" date="2025-07-28">
       <description>
         <p>Updated all translation dictionaries.</p>

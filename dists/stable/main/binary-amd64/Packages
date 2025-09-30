@@ -149,6 +149,27 @@ Description: Soplos Plymouth theme.
  This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
  Build date: 2025-07-27
 
+Package: soplos-release
+Version: 0.1.9
+Architecture: all
+Maintainer: Sergi Perich
+Priority: required
+Section: admin
+Filename: pool/main/s/soplos-release/soplos-release_0.1.9_all.deb
+Size: 157884
+SHA256: f33b8ff3bfb961a678892ba57886880dc040cf9c643066b2fcaea2d51ffe7c21
+SHA1: d36d79b6cdf9bfa205654d5e46c62f5af00fc05a
+MD5sum: f9de8a1862099377f7a271d1578b4229
+Description: Soplos Linux release information (internal system package)
+ This package contains release information and version files for Soplos Linux.
+ It is essential for operating system identification.
+ .
+ This is an internal system package and does not provide any user interface.
+ This release corresponds to Soplos Linux Tyron Beta 1.
+Essential: yes
+Replaces: base-files, xfce4-about
+Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
+
 Package: soplos-repo-selector
 Version: 1.0.4
 Architecture: all

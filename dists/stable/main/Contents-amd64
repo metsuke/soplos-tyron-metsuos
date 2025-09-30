@@ -1,3 +1,4 @@
+libxfce4ui-utils-soplos_4.20.2-1.soplos1_amd64.deb	    xfce/libxfce4ui-utils-soplos
 boot/grub/themes/soploslinux/background.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/preview.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/theme.txt	    misc/soplos-grub-theme
@@ -31,6 +32,8 @@ usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-theme-manager	    utils/soplos-theme-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/bin/xfce4-about	    xfce/libxfce4ui-utils-soplos
+usr/bin/xfhelp4	    xfce/libxfce4ui-utils-soplos
 usr/lib/os-release	    admin/soplos-release
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
@@ -40,6 +43,7 @@ usr/share/applications/com.soplos.reposelector.desktop	    utils/soplos-repo-sel
 usr/share/applications/com.soplos.thememanager.desktop	    utils/soplos-theme-manager
 usr/share/applications/com.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/com.soplos.welcomelive.desktop	    utils/soplos-welcome-live
+usr/share/applications/xfce4-about.desktop	    xfce/libxfce4ui-utils-soplos
 usr/share/backgrounds/soplos/001.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/002.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/003.jpg	    x11/soplos-wallpapers01
@@ -95,6 +99,10 @@ usr/share/branding-soplos/soplos/show.qml	    misc/branding-soplos
 usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
+usr/share/doc/libxfce4ui-utils/NEWS.Debian.gz	    xfce/libxfce4ui-utils-soplos
+usr/share/doc/libxfce4ui-utils/changelog.Debian.gz	    xfce/libxfce4ui-utils-soplos
+usr/share/doc/libxfce4ui-utils/changelog.gz	    xfce/libxfce4ui-utils-soplos
+usr/share/doc/libxfce4ui-utils/copyright	    xfce/libxfce4ui-utils-soplos
 usr/share/icons/hicolor/128x128/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -103,7 +111,9 @@ usr/share/icons/hicolor/128x128/apps/com.soplos.reposelector.png	    utils/soplo
 usr/share/icons/hicolor/128x128/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/128x128/apps/org.xfce.about.png	    xfce/libxfce4ui-utils-soplos
 usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
+usr/share/icons/hicolor/128x128/apps/xfce4-logo.png	    xfce/libxfce4ui-utils-soplos
 usr/share/icons/hicolor/16x16/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/16x16/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -112,6 +122,8 @@ usr/share/icons/hicolor/16x16/apps/com.soplos.reposelector.png	    utils/soplos-
 usr/share/icons/hicolor/16x16/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/16x16/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/16x16/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/16x16/apps/org.xfce.about.png	    xfce/libxfce4ui-utils-soplos
+usr/share/icons/hicolor/16x16/apps/xfce4-logo.png	    xfce/libxfce4ui-utils-soplos
 usr/share/icons/hicolor/22x22/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/22x22/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/22x22/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -152,6 +164,8 @@ usr/share/icons/hicolor/48x48/apps/com.soplos.reposelector.png	    utils/soplos-
 usr/share/icons/hicolor/48x48/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/48x48/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/48x48/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/48x48/apps/org.xfce.about.png	    xfce/libxfce4ui-utils-soplos
+usr/share/icons/hicolor/48x48/apps/xfce4-logo.png	    xfce/libxfce4ui-utils-soplos
 usr/share/icons/hicolor/64x64/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/64x64/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/64x64/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -160,6 +174,9 @@ usr/share/icons/hicolor/64x64/apps/com.soplos.reposelector.png	    utils/soplos-
 usr/share/icons/hicolor/64x64/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/64x64/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/scalable/apps/org.xfce.about.svg	    xfce/libxfce4ui-utils-soplos
+usr/share/icons/hicolor/scalable/apps/xfce4-logo.svg	    xfce/libxfce4ui-utils-soplos
+usr/share/man/man1/xfce4-about.1.gz	    xfce/libxfce4ui-utils-soplos
 usr/share/metainfo/com.soplos.docklike.metainfo.xml	    utils/soplos-docklike
 usr/share/metainfo/com.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
 usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-gui
@@ -732,3 +749,4 @@ usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/force_cleanup.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
+usr/share/xfce4/vendorinfo	    xfce/libxfce4ui-utils-soplos

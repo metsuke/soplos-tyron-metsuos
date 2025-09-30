@@ -50,6 +50,30 @@ Description: Custom Kitty configuration for SopLOS
  .
  This package includes an enhanced .bashrc with Soplos Linux branding.
 
+Package: libxfce4ui-utils-soplos
+Version: 4.20.2-1.soplos1
+Architecture: amd64
+Maintainer: Sergi Perich <ingo@soploslinux.com>
+Installed-Size: 246
+Depends: libc6 (>= 2.34), libepoxy0 (>= 1.2), libglib2.0-0t64 (>= 2.56.0), libgtk-3-0t64 (>= 3.16.2), libgtop-2.0-11 (>= 2.22.3), libgudev-1.0-0 (>= 146), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.17.2)
+Homepage: https://soplos.org
+Priority: optional
+Section: xfce
+Filename: pool/main/libx/libxfce4ui-utils-soplos/libxfce4ui-utils-soplos_4.20.2-1.soplos1_amd64.deb
+Size: 91568
+SHA256: 61549ad3f6da6af25e6ab76f229c8164b9fdcd0e7aea3a6242c0719c6025eef1
+SHA1: 9dac68724ad2ae27b65d35c1b79ec2560f364fea
+MD5sum: ab634bd02c89315491a331a2f2ee316a
+Description: Utility files for libxfce4ui - Soplos customized version
+ This package contains the Xfce settings plugin and the utility files for
+ libxfce4ui-2-0 which are:
+   - xfce4-about (customized for Soplos Linux)
+ .
+ Soplos Linux customized version with custom branding.
+Conflicts: libxfce4ui-utils
+Provides: libxfce4ui-utils
+Replaces: libxfce4ui-utils
+
 Package: msi-keyboard-gui
 Version: 1.0.7
 Architecture: all
@@ -150,16 +174,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-07-27
 
 Package: soplos-release
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.2.1_all.deb
-Size: 133316
-SHA256: 86460c976e266677e0d57ab35675ab427fbf518ac37c98602413a0e273d0d3af
-SHA1: 480f5f9543b993eedabc61ae9874d3c17525869b
-MD5sum: 0244c0f995c827383fbd30240e6da725
+Filename: pool/main/s/soplos-release/soplos-release_0.2.2_all.deb
+Size: 133336
+SHA256: c7864d97231812c9177e7d23c9ced7425ad685a1362f2ddd4d7ea912a9510fdb
+SHA1: f10184e020e24544740c650d7b447280968fac02
+MD5sum: 72acf9e176d2903a04fe3771a9e194dd
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -168,6 +192,7 @@ Description: Soplos Linux release information (internal system package)
  This release corresponds to Soplos Linux Tyron Beta 1.
 Essential: yes
 Replaces: base-files
+Depends: libxfce4ui-utils-soplos
 Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
 
 Package: soplos-repo-selector

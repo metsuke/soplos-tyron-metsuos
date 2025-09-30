@@ -103,6 +103,7 @@ usr/share/icons/hicolor/128x128/apps/com.soplos.reposelector.png	    utils/soplo
 usr/share/icons/hicolor/128x128/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
 usr/share/icons/hicolor/16x16/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/16x16/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -731,3 +732,4 @@ usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/force_cleanup.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
+usr/share/xfce4/vendorinfo	    admin/soplos-release

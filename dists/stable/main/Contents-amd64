@@ -31,6 +31,7 @@ usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-theme-manager	    utils/soplos-theme-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/bin/xfce4-about-soplos	    admin/soplos-release
 usr/lib/os-release	    admin/soplos-release
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
@@ -732,3 +733,4 @@ usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/force_cleanup.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
+usr/share/xfce4/vendorinfo-soplos	    admin/soplos-release

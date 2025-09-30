@@ -9,7 +9,12 @@ boot/grub/themes/soploslinux/icons/memtest.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/os.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
+etc/debian_version	    admin/soplos-release
+etc/issue	    admin/soplos-release
+etc/issue.net	    admin/soplos-release
+etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
+etc/apt/sources.list.d/tyron.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/skel/.bashrc	    utils/kitty-soplos
 etc/skel/.config/Thunar/uca.xml	    utils/kitty-soplos
@@ -26,6 +31,8 @@ usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-theme-manager	    utils/soplos-theme-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/bin/xfce4-about	    admin/soplos-release
+usr/lib/os-release	    admin/soplos-release
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
@@ -97,6 +104,7 @@ usr/share/icons/hicolor/128x128/apps/com.soplos.reposelector.png	    utils/soplo
 usr/share/icons/hicolor/128x128/apps/com.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
 usr/share/icons/hicolor/16x16/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/16x16/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -161,6 +169,7 @@ usr/share/metainfo/com.soplos.reposelector.metainfo.xml	    utils/soplos-repo-se
 usr/share/metainfo/com.soplos.thememanager.metainfo.xml	    utils/soplos-theme-manager
 usr/share/metainfo/com.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/com.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
+usr/share/metainfo/org.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/CHANGELOG.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
@@ -724,3 +733,4 @@ usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/force_cleanup.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
+usr/share/xfce4/vendorinfo	    admin/soplos-release

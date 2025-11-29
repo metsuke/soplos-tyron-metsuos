@@ -188,6 +188,37 @@
   </provides>
 
   <releases>
+    <release version="1.1.2" date="2025-11-29">
+      <description>
+        <p>Universal disk detection in CHROOT: removed restrictive lsblk filter, now detects all disk types on any hardware and VM.</p>
+        <p xml:lang="es">Detección universal de discos en CHROOT: eliminado filtro restrictivo de lsblk, ahora detecta todo tipo de discos en cualquier hardware y VM.</p>
+        <p xml:lang="en">Universal disk detection in CHROOT: removed restrictive lsblk filter, now detects all disk types on any hardware and VM.</p>
+        <p xml:lang="fr">Détection universelle des disques dans CHROOT : suppression du filtre restrictif lsblk, détecte désormais tous les types de disques sur tout matériel et VM.</p>
+        <p xml:lang="pt">Detecção universal de discos no CHROOT: removido filtro restritivo do lsblk, agora detecta todos os tipos de discos em qualquer hardware e VM.</p>
+        <p xml:lang="de">Universelle Festplattenerkennung im CHROOT: Restriktiver lsblk-Filter entfernt, erkennt jetzt alle Festplattentypen auf jeder Hardware und VM.</p>
+        <p xml:lang="it">Rilevamento universale dei dischi in CHROOT: rimosso il filtro restrittivo di lsblk, ora rileva tutti i tipi di dischi su qualsiasi hardware e VM.</p>
+        <p xml:lang="ru">Универсальное обнаружение дисков в CHROOT: удалён ограничительный фильтр lsblk, теперь обнаруживаются все типы дисков на любом оборудовании и VM.</p>
+        <p xml:lang="ro">Detectare universală a discurilor în CHROOT: eliminat filtrul restrictiv lsblk, acum detectează toate tipurile de discuri pe orice hardware și VM.</p>
+        <p>Fixed indentation errors in core/chroot_operations.py.</p>
+        <p xml:lang="es">Corregidos errores de indentación en core/chroot_operations.py.</p>
+        <p xml:lang="en">Fixed indentation errors in core/chroot_operations.py.</p>
+        <p xml:lang="fr">Correction des erreurs d'indentation dans core/chroot_operations.py.</p>
+        <p xml:lang="pt">Corrigidos erros de indentação em core/chroot_operations.py.</p>
+        <p xml:lang="de">Einrückungsfehler in core/chroot_operations.py behoben.</p>
+        <p xml:lang="it">Correzione degli errori di indentazione in core/chroot_operations.py.</p>
+        <p xml:lang="ru">Исправлены ошибки отступов в core/chroot_operations.py.</p>
+        <p xml:lang="ro">Corectate erorile de indentare din core/chroot_operations.py.</p>
+        <p>Added debug message showing detected disks.</p>
+        <p xml:lang="es">Añadido mensaje de depuración mostrando los discos detectados.</p>
+        <p xml:lang="en">Added debug message showing detected disks.</p>
+        <p xml:lang="fr">Ajout d'un message de debug affichant les disques détectés.</p>
+        <p xml:lang="pt">Adicionada mensagem de depuração mostrando os discos detectados.</p>
+        <p xml:lang="de">Debug-Meldung hinzugefügt, die erkannte Festplatten anzeigt.</p>
+        <p xml:lang="it">Aggiunto messaggio di debug che mostra i dischi rilevati.</p>
+        <p xml:lang="ru">Добавлено отладочное сообщение с отображением обнаруженных дисков.</p>
+        <p xml:lang="ro">Adăugat mesaj de depanare care afișează discurile detectate.</p>
+      </description>
+    </release>
     <release version="1.1.1" date="2025-09-08">
       <description>
         <p>Updated links in the welcome tab buttons.</p>

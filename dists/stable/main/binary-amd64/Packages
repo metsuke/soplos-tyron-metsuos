@@ -242,17 +242,3 @@ SHA1: 9ceae143aa65c84f8b27a8e79ec12fcec36083c5
 MD5sum: c518c33981cb33886fe27efa67c4b4f6
 Description: Welcome screen for Soplos Linux
 
-Package: soplos-welcome-live
-Version: 1.1.2
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-psutil, python3-setuptools, x11-xkb-utils
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.1.2_all.deb
-Size: 1218304
-SHA256: e6e266801cc8ea3db4bc0fac0afaddb723edc283d9c43eb55a1a147ddabb9061
-SHA1: 2b3bb3d5a62af74c483a952cf595373b0f650657
-MD5sum: f6d6ab6a237006da76c3b36b63f36d96
-Description: Advanced welcome screen with CHROOT recovery and btrfs support for Soplos Linux Live
-

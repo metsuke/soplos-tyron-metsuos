@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.welcomelive.desktop</id>
+  <id>org.soplos.welcomelive</id>
   <pkgname>soplos-welcome-live</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <project_group>com.soploslinux</project_group>
+  <project_group>org.soplos</project_group>
 
   <name>Soplos Welcome Live</name>
   <name xml:lang="es">Bienvenida a Soplos Live</name>
@@ -15,36 +15,28 @@
   <name xml:lang="ru">Добро пожаловать в Soplos Live</name>
   <name xml:lang="ro">Bun venit la Soplos Live</name>
 
-  <summary>Advanced welcome screen with CHROOT recovery and btrfs support for Soplos Linux Live</summary>
-  <summary xml:lang="es">Pantalla de bienvenida avanzada con recuperación CHROOT y soporte btrfs para Soplos Linux Live</summary>
-  <summary xml:lang="fr">Écran de bienvenue avancé avec récupération CHROOT et support btrfs pour Soplos Linux Live</summary>
-  <summary xml:lang="pt">Tela de boas-vindas avançada com recuperação CHROOT e suporte btrfs para Soplos Linux Live</summary>
-  <summary xml:lang="de">Erweiterte Willkommensseite mit CHROOT-Wiederherstellung und btrfs-Unterstützung für Soplos Linux Live</summary>
-  <summary xml:lang="it">Schermata di benvenuto avanzata con recupero CHROOT e supporto btrfs per Soplos Linux Live</summary>
-  <summary xml:lang="ru">Расширенный экран приветствия с восстановлением CHROOT и поддержкой btrfs для Soplos Linux Live</summary>
-  <summary xml:lang="ro">Ecran de întâmpinare avansat cu recuperare CHROOT și suport btrfs pentru Soplos Linux Live</summary>
+  <summary>Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support</summary>
+  <summary xml:lang="es">Aplicación de bienvenida para Soplos Linux Live con recuperación CHROOT y soporte BTRFS</summary>
+  <summary xml:lang="fr">Application d'accueil pour Soplos Linux Live avec récupération CHROOT et support BTRFS</summary>
+  <summary xml:lang="pt">Aplicação de boas-vindas para Soplos Linux Live com recuperação CHROOT e suporte BTRFS</summary>
+  <summary xml:lang="de">Willkommensanwendung für Soplos Linux Live mit CHROOT-Wiederherstellung und BTRFS-Unterstützung</summary>
+  <summary xml:lang="it">Applicazione di benvenuto per Soplos Linux Live con recupero CHROOT e supporto BTRFS</summary>
+  <summary xml:lang="ru">Приложение приветствия для Soplos Linux Live с восстановлением CHROOT и поддержкой BTRFS</summary>
+  <summary xml:lang="ro">Aplicație de bun venit pentru Soplos Linux Live cu recuperare CHROOT și suport BTRFS</summary>
 
   <description>
-    <p>Soplos Welcome Live provides a comprehensive welcome experience for Soplos Linux Live Environment with advanced system recovery and configuration tools. The application features complete internationalization, intelligent CHROOT recovery with full btrfs support, and professional system administration capabilities.</p>
-    <p xml:lang="es">Soplos Welcome Live proporciona una experiencia de bienvenida integral para el entorno Live de Soplos Linux con herramientas avanzadas de recuperación y configuración del sistema. La aplicación cuenta con internacionalización completa, recuperación CHROOT inteligente con soporte completo para btrfs y capacidades profesionales de administración del sistema.</p>
-    <p xml:lang="fr">Soplos Welcome Live offre une expérience de bienvenue complète pour l'environnement Live de Soplos Linux avec des outils avancés de récupération et de configuration du système. L'application dispose d'une internationalisation complète, d'une récupération CHROOT intelligente avec support complet pour btrfs et de capacités d'administration système professionnelles.</p>
-    <p xml:lang="pt">Soplos Welcome Live oferece uma experiência de boas-vindas abrangente para o Ambiente Live do Soplos Linux com ferramentas avançadas de recuperação e configuração do sistema. A aplicação possui internacionalização completa, recuperação CHROOT inteligente com suporte completo para btrfs e capacidades profissionais de administração do sistema.</p>
-    <p xml:lang="de">Soplos Welcome Live bietet eine umfassende Willkommenserfahrung für die Soplos Linux Live-Umgebung mit erweiterten System-Wiederherstellungs- und Konfigurationstools. Die Anwendung verfügt über vollständige Internationalisierung, intelligente CHROOT-Wiederherstellung mit vollständiger btrfs-Unterstützung und professionelle Systemverwaltungsfunktionen.</p>
-    <p xml:lang="it">Soplos Welcome Live offre un'esperienza di benvenuto completa per l'ambiente Live di Soplos Linux con strumenti avanzati di recupero e configurazione del sistema. L'applicazione presenta internazionalizzazione completa, recupero CHROOT intelligente con supporto completo per btrfs e capacità professionali di amministrazione del sistema.</p>
-    <p xml:lang="ru">Soplos Welcome Live предоставляет комплексный опыт приветствия для Live-окружения Soplos Linux с продвинутыми инструментами восстановления и настройки системы. Приложение обладает полной интернационализацией, интеллектуальным восстановлением CHROOT с полной поддержкой btrfs и профессиональными возможностями администрирования системы.</p>
-    <p xml:lang="ro">Soplos Welcome Live oferă o experiență de bun venit cuprinzătoare pentru mediul Live Soplos Linux cu instrumente avansate de recuperare și configurare a sistemului. Aplicația prezintă internaționalizare completă, recuperare CHROOT inteligentă cu suport complet pentru btrfs și capacități profesionale de administrare a sistemului.</p>
+    <p>Soplos Welcome Live 2.0 provides a comprehensive welcome experience for Soplos Linux Live Environment. Built with the same modular architecture as Soplos Welcome 2.0, it offers universal desktop compatibility and professional system recovery tools.</p>
+    <p xml:lang="es">Soplos Welcome Live 2.0 proporciona una experiencia de bienvenida completa para el entorno Live de Soplos Linux. Construida con la misma arquitectura modular que Soplos Welcome 2.0, ofrece compatibilidad universal con escritorios y herramientas profesionales de recuperación del sistema.</p>
+    <p xml:lang="fr">Soplos Welcome Live 2.0 offre une expérience de bienvenue complète pour l'environnement Live de Soplos Linux. Construite avec la même architecture modulaire que Soplos Welcome 2.0, elle offre une compatibilité universelle avec les bureaux et des outils professionnels de récupération système.</p>
     <ul>
-      <li>Complete internationalization with 8 languages and keyboard mnemonics</li>
+      <li>Universal desktop support: XFCE (Tyron), KDE Plasma (Tyson), GNOME (Boro)</li>
+      <li>Complete X11 and Wayland compatibility</li>
+      <li>Calamares installer integration</li>
       <li>Advanced CHROOT recovery system with intelligent partition detection</li>
-      <li>Full btrfs support including subvolume detection and mounting</li>
-      <li>Intelligent subvolume suggestions for major distributions (openSUSE, Fedora, Ubuntu, Arch)</li>
-      <li>Automatic XDG folders migration when changing system language</li>
-      <li>NumLock management integration for numeric keypad control</li>
+      <li>Full BTRFS support including subvolume detection and mounting</li>
       <li>GParted integration for professional disk management</li>
-      <li>Real-time Python cache cleanup and memory optimization</li>
-      <li>Robust filesystem validation and error recovery</li>
-      <li>Professional UI design with accessibility features</li>
-      <li>Universal distribution compatibility for system recovery</li>
+      <li>Complete internationalization with 8 languages</li>
+      <li>GNU Gettext professional translation system</li>
     </ul>
   </description>
 
@@ -65,47 +57,102 @@
 
   <keywords>
     <keyword>welcome</keyword>
-    <keyword xml:lang="en">welcome</keyword>
     <keyword>live</keyword>
-    <keyword xml:lang="en">live</keyword>
     <keyword>install</keyword>
-    <keyword xml:lang="en">install</keyword>
-    <keyword>setup</keyword>
-    <keyword xml:lang="en">setup</keyword>
     <keyword>chroot</keyword>
-    <keyword xml:lang="en">chroot</keyword>
     <keyword>recovery</keyword>
-    <keyword xml:lang="en">recovery</keyword>
-    <keyword>system</keyword>
-    <keyword xml:lang="en">system</keyword>
-    <keyword>configuration</keyword>
-    <keyword xml:lang="en">configuration</keyword>
-    <keyword>administration</keyword>
-    <keyword xml:lang="en">administration</keyword>
     <keyword>btrfs</keyword>
-    <keyword xml:lang="en">btrfs</keyword>
-    <keyword>subvolumes</keyword>
-    <keyword xml:lang="en">subvolumes</keyword>
-    <keyword>filesystem</keyword>
-    <keyword xml:lang="en">filesystem</keyword>
-    <keyword>partition</keyword>
-    <keyword xml:lang="en">partition</keyword>
-    <keyword>international</keyword>
-    <keyword xml:lang="en">international</keyword>
     <keyword>soplos</keyword>
-    <keyword xml:lang="en">soplos</keyword>
     <keyword xml:lang="es">bienvenida</keyword>
-    <keyword xml:lang="es">live</keyword>
     <keyword xml:lang="es">instalar</keyword>
-    <keyword xml:lang="es">configuración</keyword>
     <keyword xml:lang="es">recuperación</keyword>
-    <keyword xml:lang="es">btrfs</keyword>
-    <keyword xml:lang="es">subvolúmenes</keyword>
-    <keyword xml:lang="es">partición</keyword>
-    <keyword xml:lang="es">internacionalización</keyword>
-    <keyword xml:lang="es">soplos</keyword>
-    <!-- ...añade traducciones para fr, pt, de, it, ru, ro como en MSI... -->
+    <keyword xml:lang="fr">bienvenue</keyword>
+    <keyword xml:lang="fr">installer</keyword>
+    <keyword xml:lang="fr">récupération</keyword>
+    <keyword xml:lang="pt">boas-vindas</keyword>
+    <keyword xml:lang="pt">instalar</keyword>
+    <keyword xml:lang="pt">recuperação</keyword>
+    <keyword xml:lang="de">willkommen</keyword>
+    <keyword xml:lang="de">installation</keyword>
+    <keyword xml:lang="de">wiederherstellung</keyword>
+    <keyword xml:lang="it">benvenuto</keyword>
+    <keyword xml:lang="it">installare</keyword>
+    <keyword xml:lang="it">recupero</keyword>
+    <keyword xml:lang="ru">приветствие</keyword>
+    <keyword xml:lang="ru">установка</keyword>
+    <keyword xml:lang="ru">восстановление</keyword>
+    <keyword xml:lang="ro">bun venit</keyword>
+    <keyword xml:lang="ro">instalare</keyword>
+    <keyword xml:lang="ro">recuperare</keyword>
   </keywords>
+
+  <launchable type="desktop-id">org.soplos.welcomelive.desktop</launchable>
+
+  <icon type="stock">org.soplos.welcomelive</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/soplos-welcome-live/main/assets/icons/org.soplos.welcomelive.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Welcome Screen with Language Selection and System Installation</caption>
+      <caption xml:lang="es">Pantalla de Bienvenida con Selección de Idioma e Instalación del Sistema</caption>
+      <caption xml:lang="fr">Écran d'accueil avec sélection de la langue et installation du système</caption>
+      <caption xml:lang="pt">Ecrã de boas-vindas com seleção de idioma e instalação do sistema</caption>
+      <caption xml:lang="de">Begrüßungsbildschirm mit Sprachauswahl und Systeminstallation</caption>
+      <caption xml:lang="it">Schermata di benvenuto con selezione della lingua e installazione del sistema</caption>
+      <caption xml:lang="ru">Экран приветствия с выбором языка и установкой системы</caption>
+      <caption xml:lang="ro">Ecran de bun venit cu selecţie de limbă şi instalare a sistemului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-welcome-live/main/assets/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Advanced CHROOT Recovery System</caption>
+      <caption xml:lang="es">Sistema Avanzado de Recuperación CHROOT</caption>
+      <caption xml:lang="fr">Système de récupération CHROOT avancé</caption>
+      <caption xml:lang="pt">Sistema de recuperação CHROOT avançado</caption>
+      <caption xml:lang="de">Fortschrittliches CHROOT-Wiederherstellungssystem</caption>
+      <caption xml:lang="it">Sistema di recupero CHROOT avanzato</caption>
+      <caption xml:lang="ru">Продвинутая система восстановления CHROOT</caption>
+      <caption xml:lang="ro">Sistem avansat de recuperare CHROOT</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-welcome-live/main/assets/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>BTRFS Subvolume Selection</caption>
+      <caption xml:lang="es">Selección de Subvolúmenes BTRFS</caption>
+      <caption xml:lang="fr">Sélection de sous-volumes BTRFS</caption>
+      <caption xml:lang="pt">Seleção de subvolumes BTRFS</caption>
+      <caption xml:lang="de">Auswahl von BTRFS-Subvolumes</caption>
+      <caption xml:lang="it">Selezione dei sottovolumi BTRFS</caption>
+      <caption xml:lang="ru">Выбор подтомов BTRFS</caption>
+      <caption xml:lang="ro">Selectare subvolume BTRFS</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-welcome-live/main/assets/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Terminal with Active CHROOT Session</caption>
+      <caption xml:lang="es">Terminal con Sesión CHROOT Activa</caption>
+      <caption xml:lang="fr">Terminal avec session CHROOT active</caption>
+      <caption xml:lang="pt">Terminal com sessão CHROOT ativa</caption>
+      <caption xml:lang="de">Terminal mit aktiver CHROOT-Sitzung</caption>
+      <caption xml:lang="it">Terminal con sessione CHROOT attiva</caption>
+      <caption xml:lang="ru">Терминал с активной CHROOT-сессией</caption>
+      <caption xml:lang="ro">Terminal cu sesiune CHROOT activă</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-welcome-live/main/assets/screenshots/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-welcome-live/issues</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="help">https://soplos.org</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-welcome-live</binary>
+  </provides>
 
   <translation type="gettext">
     <locale>es</locale>
@@ -118,285 +165,88 @@
     <locale>ro</locale>
   </translation>
 
-  <launchable type="desktop-id">com.soplos.welcomelive.desktop</launchable>
-
-  <icon type="stock">com.soplos.welcomelive</icon>
-  <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
-  </icon>
-
-  <screenshots>
-    <screenshot type="default">
-      <caption>Main Welcome Screen with Language Selection and System Configuration</caption>
-      <caption xml:lang="es">Pantalla Principal de Bienvenida con Selección de Idioma y Configuración del Sistema</caption>
-      <caption xml:lang="fr">Écran de Bienvenue Principal avec Sélection de Langue et Configuration Système</caption>
-      <caption xml:lang="pt">Tela Principal de Boas-vindas com Seleção de Idioma e Configuração do Sistema</caption>
-      <caption xml:lang="de">Haupt-Willkommensbildschirm mit Sprachauswahl und Systemkonfiguration</caption>
-      <caption xml:lang="it">Schermata Principale di Benvenuto con Selezione Lingua e Configurazione Sistema</caption>
-      <caption xml:lang="ru">Главный экран приветствия с выбором языка и настройкой системы</caption>
-      <caption xml:lang="ro">Ecranul Principal de Întâmpinare cu Selecția Limbii și Configurarea Sistemului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Advanced CHROOT Recovery System with Intelligent Partition Detection</caption>
-      <caption xml:lang="es">Sistema Avanzado de Recuperación CHROOT con Detección Inteligente de Particiones</caption>
-      <caption xml:lang="fr">Système de Récupération CHROOT Avancé avec Détection Intelligente des Partitions</caption>
-      <caption xml:lang="pt">Sistema Avançado de Recuperação CHROOT com Detecção Inteligente de Partições</caption>
-      <caption xml:lang="de">Erweiterte CHROOT-Wiederherstellungssystem mit intelligenter Partitionserkennung</caption>
-      <caption xml:lang="it">Sistema di Recupero CHROOT Avanzato con Rilevamento Intelligente delle Partizioni</caption>
-      <caption xml:lang="ru">Продвинутая система восстановления CHROOT с интеллектуальным обнаружением разделов</caption>
-      <caption xml:lang="ro">Sistem Avansat de Recuperare CHROOT cu Detectarea Inteligentă a Partițiilor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Btrfs Subvolume Support with Hierarchical Selection</caption>
-      <caption xml:lang="es">Soporte para Subvolúmenes Btrfs con Selección Jerárquica</caption>
-      <caption xml:lang="fr">Support des Sous-volumes Btrfs avec Sélection Hiérarchique</caption>
-      <caption xml:lang="pt">Suporte para Subvolumes Btrfs com Seleção Hierárquica</caption>
-      <caption xml:lang="de">Btrfs-Subvolume-Unterstützung mit hierarchischer Auswahl</caption>
-      <caption xml:lang="it">Supporto per Subvolumi Btrfs con Selezione Gerarchica</caption>
-      <caption xml:lang="ru">Поддержка подтомов Btrfs с иерархическим выбором</caption>
-      <caption xml:lang="ro">Suport pentru Subvolume Btrfs cu Selecție Ierarhică</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Terminal with CHROOT Session Executed</caption>
-      <caption xml:lang="es">Terminal con Sesión CHROOT Ejecutada</caption>
-      <caption xml:lang="fr">Terminal avec Session CHROOT Exécutée</caption>
-      <caption xml:lang="pt">Terminal com Sessão CHROOT Executada</caption>
-      <caption xml:lang="de">Terminal mit Ausgeführter CHROOT-Sitzung</caption>
-      <caption xml:lang="it">Terminale con Sessione CHROOT Eseguita</caption>
-      <caption xml:lang="ru">Терминал с Выполненной Сессией CHROOT</caption>
-      <caption xml:lang="ro">Terminal cu Sesiune CHROOT Executată</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot4.png</image>
-    </screenshot>
-  </screenshots>
-
-  <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
-  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
-  <url type="contact">https://soploslinux.com/foros/</url>
-  <url type="help">https://soploslinux.com</url>
-
-  <developer id="com.soploslinux">
-    <name>Sergi Perich</name>
-    <url type="homepage">https://soploslinux.com</url>
-  </developer>
-
-  <provides>
-    <binary>soplos-welcome-live</binary>
-  </provides>
-
   <releases>
+    <release version="2.0.0" date="2025-12-07">
+      <description>
+        <p>Major rewrite with modern architecture:</p>
+        <ul>
+          <li>Complete rewrite matching Soplos Welcome 2.0 architecture</li>
+          <li>Universal desktop support: XFCE, KDE Plasma, GNOME</li>
+          <li>Complete X11 and Wayland compatibility</li>
+          <li>GNU Gettext internationalization (8 languages at 100%)</li>
+          <li>Enhanced CHROOT recovery with improved partition detection</li>
+          <li>Full BTRFS subvolume support</li>
+        </ul>
+          <p>Patch (2025-12-08): Fixed application switch styling so widgets render consistently across desktop themes; added focused CSS overrides and prepared updated screenshots for the welcome flow.</p>
+          <p xml:lang="es">Parche (2025-12-08): Corregido el estilo de los interruptores de la aplicación para que los widgets se muestren de forma coherente en todos los temas de escritorio; añadidos overrides CSS focalizados y preparadas capturas actualizadas del flujo de bienvenida.</p>
+          <p xml:lang="fr">Correctif (2025-12-08) : Correction du style des commutateurs de l'application afin que les widgets s'affichent de manière cohérente sur tous les thèmes de bureau ; ajouts d'overrides CSS ciblés et captures d'écran mises à jour préparées pour le flux d'accueil.</p>
+          <p xml:lang="pt">Patch (2025-12-08): Corrigido o estilo dos interruptores da aplicação para que os widgets sejam renderizados de forma consistente em todos os temas de ambiente de trabalho; adicionados overrides CSS e preparadas capturas atualizadas do fluxo de boas-vindas.</p>
+          <p xml:lang="de">Patch (2025-12-08): Fehler im Stil der Anwendungsschalter behoben, sodass Widgets in verschiedenen Desktop-Themen konsistent dargestellt werden; gezielte CSS-Overrides hinzugefügt und aktualisierte Screenshots für den Willkommensablauf vorbereitet.</p>
+          <p xml:lang="it">Patch (2025-12-08): Corretto lo stile degli interruttori dell'applicazione in modo che i widget vengano visualizzati in modo coerente tra i temi del desktop; aggiunti override CSS mirati e preparati screenshot aggiornati per il flusso di benvenuto.</p>
+          <p xml:lang="ru">Патч (2025-12-08): Исправлен стиль переключателей приложения, теперь виджеты отображаются одинаково во всех темах рабочего стола; добавлены целевые CSS-правки и подготовлены обновленные скриншоты приветственного интерфейса.</p>
+          <p xml:lang="ro">Patch (2025-12-08): Corectat stilul comutatoarelor aplicației astfel încât widget-urile să se afișeze în mod consecvent în toate temele desktop; adăugate override-uri CSS focalizate și pregătite capturi de ecran actualizate pentru fluxul de bun venit.</p>
+
+          <p>Patch (2025-12-09): Removed KDE bookmark remapping logic from the language changer; the language switcher now deletes <code>~/.local/share/user-places.xbel</code> before restarting the session so KDE/Dolphin regenerates localized bookmarks. This simplifies behavior in live images and avoids incorrect localized paths.</p>
+          <p xml:lang="es">Parche (2025-12-09): Eliminada la lógica de remapeo de marcadores de KDE en el cambiador de idioma; el cambiador ahora borra <code>~/.local/share/user-places.xbel</code> antes de reiniciar la sesión para que KDE/Dolphin regenere marcadores localizados. Esto simplifica el comportamiento en imágenes live y evita rutas localizadas incorrectas.</p>
+          <p xml:lang="fr">Correctif (2025-12-09) : Suppression de la logique de remappage des favoris KDE dans le changeur de langue ; le changeur supprime désormais <code>~/.local/share/user-places.xbel</code> avant de redémarrer la session afin que KDE/Dolphin régénère les favoris localisés. Cela simplifie le comportement sur les images live et évite des chemins localisés incorrects.</p>
+          <p xml:lang="pt">Patch (2025-12-09): Removida a lógica de remapeamento de marcadores do KDE no trocador de idioma; o trocador agora elimina <code>~/.local/share/user-places.xbel</code> antes de reiniciar a sessão para que o KDE/Dolphin regenere marcadores localizados. Isso simplifica o comportamento em imagens live e evita caminhos localizados incorretos.</p>
+          <p xml:lang="de">Patch (2025-12-09): Entfernen der KDE-Lesezeichen-Remapping-Logik im Sprachumschalter; der Umschalter löscht jetzt <code>~/.local/share/user-places.xbel</code> vor dem Neustart der Sitzung, damit KDE/Dolphin lokalisierte Lesezeichen regeneriert. Dies vereinfacht das Verhalten in Live-Images und vermeidet falsche lokalisierte Pfade.</p>
+          <p xml:lang="it">Patch (2025-12-09): Rimosso il comportamento di remappatura dei segnalibri di KDE nel selettore di lingua; il selettore ora elimina <code>~/.local/share/user-places.xbel</code> prima di riavviare la sessione in modo che KDE/Dolphin rigeneri i segnalibri localizzati. Questo semplifica il comportamento nelle immagini live ed evita percorsi localizzati errati.</p>
+          <p xml:lang="ru">Патч (2025-12-09): Удалена логика переназначения закладок KDE в переключателе языка; переключатель теперь удаляет <code>~/.local/share/user-places.xbel</code> перед перезапуском сессии, чтобы KDE/Dolphin регенерировал локализованные закладки. Это упрощает поведение в live-образах и избегает неверных локализованных путей.</p>
+          <p xml:lang="ro">Patch (2025-12-09): Eliminată logica de remapare a semnelor de carte KDE în schimbătorul de limbă; schimbătorul acum șterge <code>~/.local/share/user-places.xbel</code> înainte de repornirea sesiunii astfel încât KDE/Dolphin să regenereze semnele localizate. Aceasta simplifică comportamentul în imaginile live și evită căi localizate incorecte.</p>
+
+          <p>Patch (2025-12-09): GNOME / Wayland display improvements: robust GNOME Wayland resolution handling with GDK-first detection and a defensive D-Bus fallback; selects best refresh rate and applies temporary monitor changes suitable for Live ISOs.</p>
+          <p xml:lang="es">Parche (2025-12-09): Mejoras en GNOME / Wayland: manejo robusto de resoluciones en GNOME Wayland con detección prioritaria por GDK y respaldo defensivo vía D-Bus; selecciona la mejor tasa de refresco y aplica cambios temporales de monitor adecuados para ISOs Live.</p>
+          <p xml:lang="fr">Correctif (2025-12-09) : Améliorations GNOME / Wayland : gestion robuste des résolutions sur GNOME Wayland avec détection prioritaire GDK et repli défensif via D-Bus ; sélection de la meilleure fréquence de rafraîchissement et application de changements temporaires d'écran adaptés aux Live ISO.</p>
+          <p xml:lang="pt">Patch (2025-12-09): Melhorias GNOME / Wayland: tratamento robusto de resoluções no GNOME Wayland com deteção prioritária via GDK e fallback defensivo via D-Bus; seleciona a melhor taxa de atualização e aplica alterações temporárias de monitor adequadas para ISOs Live.</p>
+          <p xml:lang="de">Patch (2025-12-09): GNOME / Wayland Verbesserungen: robuster Umgang mit Auflösungen unter GNOME Wayland mit GDK-vorrangiger Erkennung und defensivem D-Bus-Fallback; wählt die beste Bildwiederholrate und wendet temporäre Monitoränderungen an, geeignet für Live-ISOs.</p>
+          <p xml:lang="it">Patch (2025-12-09): Miglioramenti GNOME / Wayland: gestione robusta delle risoluzioni su GNOME Wayland con rilevamento prioritario GDK e fallback difensivo via D-Bus; seleziona la migliore frequenza di aggiornamento e applica modifiche temporanee del monitor adatte alle Live ISO.</p>
+          <p xml:lang="ru">Патч (2025-12-09): Улучшения GNOME / Wayland: надежная обработка разрешений в GNOME Wayland с приоритетной детекцией через GDK и защитным fallback через D-Bus; выбирает лучшую частоту обновления и применяет временные изменения монитора, подходящие для Live ISO.</p>
+          <p xml:lang="ro">Patch (2025-12-09): Îmbunătățiri GNOME / Wayland: gestionare robustă a rezoluțiilor în GNOME Wayland cu detectare prioritară GDK și fallback defensiv via D-Bus; selectează cea mai bună rată de reîmprospătare și aplică modificări temporare ale monitorului, potrivite pentru ISO-uri Live.</p>
+          
+          <p>Patch (2025-12-10): Restored legacy Chroot functionality with robust unmount script and exact mount sequencing; implemented cross-DE terminal support (XFCE, Plasma, GNOME) with specific priority lists; restored detailed progress UI and window footer.</p>
+          <p xml:lang="es">Parche (2025-12-10): Restaurada la funcionalidad Chroot legacy con script de desmontaje robusto y secuencia de montaje exacta; implementado soporte de terminal multi-entorno (XFCE, Plasma, GNOME) con listas de prioridad específicas; restaurada la UI de progreso detallada y el pie de página de la ventana.</p>
+          <p xml:lang="fr">Correctif (2025-12-10) : Restauration de la fonctionnalité Chroot héritée avec un script de démontage robuste et une séquence de montage exacte ; prise en charge des terminaux multi-environnements (XFCE, Plasma, GNOME) avec des listes de priorité spécifiques ; restauration de l'interface de progression détaillée et du pied de page de la fenêtre.</p>
+          <p xml:lang="pt">Patch (2025-12-10): Restaurada a funcionalidade Chroot herdada com script de desmontagem robusto e sequência de montagem exata; implementado suporte de terminal multi-ambiente (XFCE, Plasma, GNOME) com listas de prioridade específicas; restaurada a UI de progresso detalhada e o rodapé da janela.</p>
+          <p xml:lang="de">Patch (2025-12-10): Wiederherstellung der Legacy-Chroot-Funktionalität mit robustem Unmount-Skript und exakter Mount-Sequenz; Implementierung von Cross-DE-Terminal-Unterstützung (XFCE, Plasma, GNOME) mit spezifischen Prioritätslisten; Wiederherstellung der detaillierten Fortschritts-UI und der Fensterfußzeile.</p>
+          <p xml:lang="it">Patch (2025-12-10): Ripristinata la funzionalità Chroot legacy con script di smontaggio robusto e sequenza di montaggio esatta; implementato il supporto terminale multi-ambiente (XFCE, Plasma, GNOME) con elenchi di priorità specifici; ripristinata l'interfaccia di avanzamento dettagliata e il piè di pagina della finestra.</p>
+          <p xml:lang="ru">Патч (2025-12-10): Восстановлена устаревшая функциональность Chroot с надежным скриптом размонтирования и точной последовательностью монтирования; реализована поддержка терминалов в разных DE (XFCE, Plasma, GNOME) со специальными списками приоритетов; восстановлен детальный интерфейс прогресса и "футер" окна.</p>
+          <p xml:lang="ro">Patch (2025-12-10): Restaurată funcționalitatea Chroot moștenită cu script robust de demontare și secvență exactă de montare; implementat suport terminal multi-mediu (XFCE, Plasma, GNOME) cu liste de prioritate specifice; restaurată interfața de progres detaliată și subsolul ferestrei.</p>
+          
+          <p>Patch (2025-12-10 - Final): Complete quality review of all translations (ES, EN, DE, FR, PT, IT, RO, RU) ensuring 100% coverage, natural phrasing, and UI conciseness.</p>
+          <p xml:lang="es">Parche (2025-12-10 - Final): Completada la revisión de calidad de todas las traducciones (ES, EN, DE, FR, PT, IT, RO, RU) asegurando cobertura del 100%, fraseo natural y concisión en la interfaz.</p>
+          <p xml:lang="fr">Correctif (2025-12-10 - Final) : Révision complète de la qualité de toutes les traductions (ES, EN, DE, FR, PT, IT, RO, RU) assurant une couverture à 100 %, un phrasé naturel et la concision de l'interface.</p>
+          <p xml:lang="pt">Patch (2025-12-10 - Final): Concluída a revisão de qualidade de todas as traduções (ES, EN, DE, FR, PT, IT, RO, RU) garantindo cobertura de 100%, fraseado natural e concisão da interface.</p>
+          <p xml:lang="de">Patch (2025-12-10 - Final): Vollständige Qualitätsprüfung aller Übersetzungen (ES, EN, DE, FR, PT, IT, RO, RU), Sicherstellung von 100% Abdeckung, natürlicher Formulierung und UI-Prägnanz.</p>
+          <p xml:lang="it">Patch (2025-12-10 - Finale): Completata la revisione della qualità di tutte le traduzioni (ES, EN, DE, FR, PT, IT, RO, RU) garantendo copertura al 100%, fraseggio naturale e concisione dell'interfaccia.</p>
+          <p xml:lang="ru">Патч (2025-12-10 - Финал): Завершен полный аудит качества всех переводов (ES, EN, DE, FR, PT, IT, RO, RU), обеспечено 100% покрытие, естественность фраз и лаконичность интерфейса.</p>
+          <p xml:lang="ro">Patch (2025-12-10 - Final): Finalizată revizuirea calității tuturor traducerilor (ES, EN, DE, FR, PT, IT, RO, RU) asigurând acoperire 100%, formulare naturală și concizie a interfeței.</p>
+
+      </description>
+    </release>
     <release version="1.1.2" date="2025-11-29">
       <description>
-        <p>Universal disk detection in CHROOT: removed restrictive lsblk filter, now detects all disk types on any hardware and VM.</p>
-        <p xml:lang="es">Detección universal de discos en CHROOT: eliminado filtro restrictivo de lsblk, ahora detecta todo tipo de discos en cualquier hardware y VM.</p>
-        <p xml:lang="en">Universal disk detection in CHROOT: removed restrictive lsblk filter, now detects all disk types on any hardware and VM.</p>
-        <p xml:lang="fr">Détection universelle des disques dans CHROOT : suppression du filtre restrictif lsblk, détecte désormais tous les types de disques sur tout matériel et VM.</p>
-        <p xml:lang="pt">Detecção universal de discos no CHROOT: removido filtro restritivo do lsblk, agora detecta todos os tipos de discos em qualquer hardware e VM.</p>
-        <p xml:lang="de">Universelle Festplattenerkennung im CHROOT: Restriktiver lsblk-Filter entfernt, erkennt jetzt alle Festplattentypen auf jeder Hardware und VM.</p>
-        <p xml:lang="it">Rilevamento universale dei dischi in CHROOT: rimosso il filtro restrittivo di lsblk, ora rileva tutti i tipi di dischi su qualsiasi hardware e VM.</p>
-        <p xml:lang="ru">Универсальное обнаружение дисков в CHROOT: удалён ограничительный фильтр lsblk, теперь обнаруживаются все типы дисков на любом оборудовании и VM.</p>
-        <p xml:lang="ro">Detectare universală a discurilor în CHROOT: eliminat filtrul restrictiv lsblk, acum detectează toate tipurile de discuri pe orice hardware și VM.</p>
-        <p>Fixed indentation errors in core/chroot_operations.py.</p>
-        <p xml:lang="es">Corregidos errores de indentación en core/chroot_operations.py.</p>
-        <p xml:lang="en">Fixed indentation errors in core/chroot_operations.py.</p>
-        <p xml:lang="fr">Correction des erreurs d'indentation dans core/chroot_operations.py.</p>
-        <p xml:lang="pt">Corrigidos erros de indentação em core/chroot_operations.py.</p>
-        <p xml:lang="de">Einrückungsfehler in core/chroot_operations.py behoben.</p>
-        <p xml:lang="it">Correzione degli errori di indentazione in core/chroot_operations.py.</p>
-        <p xml:lang="ru">Исправлены ошибки отступов в core/chroot_operations.py.</p>
-        <p xml:lang="ro">Corectate erorile de indentare din core/chroot_operations.py.</p>
-        <p>Added debug message showing detected disks.</p>
-        <p xml:lang="es">Añadido mensaje de depuración mostrando los discos detectados.</p>
-        <p xml:lang="en">Added debug message showing detected disks.</p>
-        <p xml:lang="fr">Ajout d'un message de debug affichant les disques détectés.</p>
-        <p xml:lang="pt">Adicionada mensagem de depuração mostrando os discos detectados.</p>
-        <p xml:lang="de">Debug-Meldung hinzugefügt, die erkannte Festplatten anzeigt.</p>
-        <p xml:lang="it">Aggiunto messaggio di debug che mostra i dischi rilevati.</p>
-        <p xml:lang="ru">Добавлено отладочное сообщение с отображением обнаруженных дисков.</p>
-        <p xml:lang="ro">Adăugat mesaj de depanare care afișează discurile detectate.</p>
+        <p>Universal disk detection in CHROOT for all hardware and VM types.</p>
       </description>
     </release>
     <release version="1.1.1" date="2025-09-08">
       <description>
-        <p>Updated links in the welcome tab buttons.</p>
-        <p xml:lang="es">Enlaces actualizados en los botones de la pestaña de bienvenida.</p>
-        <p xml:lang="en">Updated links in the welcome tab buttons.</p>
-        <p xml:lang="fr">Liens mis à jour dans les boutons de l'onglet de bienvenue.</p>
-        <p xml:lang="pt">Links atualizados nos botões da aba de boas-vindas.</p>
-        <p xml:lang="de">Links in den Willkommens-Tab-Schaltflächen aktualisiert.</p>
-        <p xml:lang="it">Link aggiornati nei pulsanti della scheda di benvenuto.</p>
-        <p xml:lang="ru">Ссылки обновлены в кнопках вкладки приветствия.</p>
-        <p xml:lang="ro">Linkuri actualizate în butoanele filei de bun venit.</p>
+        <p>Updated welcome tab links.</p>
       </description>
     </release>
     <release version="1.1.0" date="2025-08-02">
       <description>
-        <p>Full internationalization refactor: dictionaries are now split into 8 files for easier maintenance and language addition.</p>
-        <p>All issues and errors with btrfs partition mounting and subvolume selection in CHROOT have been fixed.</p>
-        <p xml:lang="es">Refactorización completa de la internacionalización: los diccionarios ahora están fragmentados en 8 archivos para facilitar el mantenimiento y la adición de idiomas.</p>
-        <p xml:lang="es">Se han corregido todos los problemas y errores al montar particiones btrfs con subvolúmenes en CHROOT.</p>
-        <p xml:lang="en">Full internationalization refactor: dictionaries are now split into 8 files for easier maintenance and language addition. All issues and errors with btrfs partition mounting and subvolume selection in CHROOT have been fixed.</p>
-        <p xml:lang="fr">Refonte complète de l'internationalisation : les dictionnaires sont désormais répartis en 8 fichiers pour faciliter la maintenance et l'ajout de langues. Tous les problèmes liés au montage des partitions btrfs et à la sélection des sous-volumes dans CHROOT ont été corrigés.</p>
-        <p xml:lang="pt">Refatoração completa da internacionalização: os dicionários agora estão divididos em 8 arquivos para facilitar a manutenção e a adição de idiomas. Todos os problemas e erros ao montar partições btrfs com subvolumes no CHROOT foram corrigidos.</p>
-        <p xml:lang="de">Komplette Überarbeitung der Internationalisierung: Die Wörterbücher sind jetzt auf 8 Dateien aufgeteilt, um die Wartung und das Hinzufügen von Sprachen zu erleichtern. Alle Probleme beim Einbinden von btrfs-Partitionen und der Auswahl von Subvolumes im CHROOT wurden behoben.</p>
-        <p xml:lang="it">Refactoring completo dell'internazionalizzazione: i dizionari sono ora suddivisi in 8 file per facilitare la manutenzione e l'aggiunta di lingue. Tutti i problemi relativi al montaggio delle partizioni btrfs e alla selezione dei subvolumi in CHROOT sono stati risolti.</p>
-        <p xml:lang="ru">Полная переработка интернационализации: словари теперь разделены на 8 файлов для облегчения поддержки и добавления языков. Все проблемы и ошибки при монтировании разделов btrfs и выборе подтомов в CHROOT были исправлены.</p>
-        <p xml:lang="ro">Refactorizare completă a internaționalizării: dicționarele sunt acum împărțite în 8 fișiere pentru o întreținere și adăugare mai ușoară a limbilor. Toate problemele și erorile la montarea partițiilor btrfs cu subvolume în CHROOT au fost corectate.</p>
-      </description>
-    </release>
-    <release version="1.0.9" date="2025-07-27">
-      <description>
-        <p>New program icon. Visual refresh for better integration with Soplos Linux branding.</p>
-        <p xml:lang="es">Nuevo icono del programa. Renovación visual para mejor integración con la imagen de Soplos Linux.</p>
-        <p xml:lang="en">New program icon. Visual refresh for better integration with Soplos Linux branding.</p>
-        <p xml:lang="fr">Nouvel icône du programme. Rafraîchissement visuel pour une meilleure intégration avec l'identité Soplos Linux.</p>
-        <p xml:lang="pt">Novo ícone do programa. Renovação visual para melhor integração com a identidade do Soplos Linux.</p>
-        <p xml:lang="de">Neues Programmsymbol. Visuelle Überarbeitung für eine bessere Integration mit dem Soplos Linux Branding.</p>
-        <p xml:lang="it">Nuova icona del programma. Aggiornamento visivo per una migliore integrazione con il branding di Soplos Linux.</p>
-        <p xml:lang="ru">Новый значок программы. Визуальное обновление для лучшей интеграции с брендингом Soplos Linux.</p>
-        <p xml:lang="ro">Pictogramă nouă pentru program. Reîmprospătare vizuală pentru o mai bună integrare cu brandingul Soplos Linux.</p>
-      </description>
-    </release>
-    <release version="1.0.8" date="2025-07-27">
-      <description>
-        <p>Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>
-        <p xml:lang="es">Detección y selección avanzada de particiones y subvolúmenes btrfs en el entorno chroot. Soporte completo para montaje de /home como partición o subvolumen btrfs. Mejoras en la robustez del flujo de recuperación y compatibilidad con terminales múltiples. Autor cambiado a Sergi Perich.</p>
-        <p xml:lang="en">Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>
-        <p xml:lang="fr">Détection et sélection avancées des partitions et des sous-volumes btrfs dans l'environnement chroot. Prise en charge complète du montage de /home en tant que partition ou sous-volume btrfs. Amélioration de la robustesse du flux de récupération et de la compatibilité avec plusieurs terminaux. Auteur changé en Sergi Perich.</p>
-        <p xml:lang="pt">Detecção e seleção avançadas de partições e subvolumes btrfs no ambiente chroot. Suporte completo para montagem do /home como partição ou subvolume btrfs. Melhorias na robustez do fluxo de recuperação e compatibilidade com vários terminais. Autor alterado para Sergi Perich.</p>
-        <p xml:lang="de">Erweiterte Erkennung und Auswahl von Partitionen und btrfs-Subvolumes in der chroot-Umgebung. Vollständige Unterstützung für das Einbinden von /home als Partition oder btrfs-Subvolume. Verbesserte Robustheit des Wiederherstellungsablaufs und Kompatibilität mit mehreren Terminals. Autor geändert in Sergi Perich.</p>
-        <p xml:lang="it">Rilevamento e selezione avanzati di partizioni e subvolumi btrfs nell'ambiente chroot. Supporto completo per il montaggio di /home come partizione o subvolume btrfs. Maggiore robustezza del flusso di recupero e compatibilità con più terminali. Autore cambiato in Sergi Perich.</p>
-        <p xml:lang="ru">Расширенное обнаружение и выбор разделов и подтомов btrfs в среде chroot. Полная поддержка монтирования /home в качестве раздела или подтома btrfs. Повышенная надежность процесса восстановления и совместимость с несколькими терминалами. Автор изменен на Серги Перич.</p>
-        <p xml:lang="ro">Detectare și selecție avansată a partițiilor și subvolumelor btrfs în mediul chroot. Suport complet pentru montarea /home ca partiție sau subvolum btrfs. Îmbunătățirea robustetei fluxului de recuperare și compatibilitatea cu mai multe terminale. Autor schimbat în Sergi Perich.</p>
-      </description>
-    </release>
-    <release version="1.0.7" date="2025-07-27">
-      <description>
-        <p>Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>
-        <p xml:lang="es">Detección y selección avanzada de particiones y subvolúmenes btrfs en el entorno chroot. Soporte completo para montaje de /home como partición o subvolumen btrfs. Mejoras en la robustez del flujo de recuperación y compatibilidad con terminales múltiples. Autor cambiado a Sergi Perich.</p>
-        <p xml:lang="en">Advanced detection and selection of partitions and btrfs subvolumes in the chroot environment. Full support for mounting /home as a partition or btrfs subvolume. Improved robustness of the recovery flow and compatibility with multiple terminals. Author changed to Sergi Perich.</p>
-        <p xml:lang="fr">Détection et sélection avancées des partitions et des sous-volumes btrfs dans l'environnement chroot. Prise en charge complète du montage de /home en tant que partition ou sous-volume btrfs. Amélioration de la robustesse du flux de récupération et de la compatibilité avec plusieurs terminaux. Auteur changé en Sergi Perich.</p>
-        <p xml:lang="pt">Detecção e seleção avançadas de partições e subvolumes btrfs no ambiente chroot. Suporte completo para montagem do /home como partição ou subvolume btrfs. Melhorias na robustez do fluxo de recuperação e compatibilidade com vários terminais. Autor alterado para Sergi Perich.</p>
-        <p xml:lang="de">Erweiterte Erkennung und Auswahl von Partitionen und btrfs-Subvolumes in der chroot-Umgebung. Vollständige Unterstützung für das Einbinden von /home als Partition oder btrfs-Subvolume. Verbesserte Robustheit des Wiederherstellungsablaufs und Kompatibilität mit mehreren Terminals. Autor geändert in Sergi Perich.</p>
-        <p xml:lang="it">Rilevamento e selezione avanzati di partizioni e subvolumi btrfs nell'ambiente chroot. Supporto completo per il montaggio di /home come partizione o subvolume btrfs. Maggiore robustezza del flusso di recupero e compatibilità con più terminali. Autore cambiato in Sergi Perich.</p>
-        <p xml:lang="ru">Расширенное обнаружение и выбор разделов и подтомов btrfs в среде chroot. Полная поддержка монтирования /home в качестве раздела или подтома btrfs. Повышенная надежность процесса восстановления и совместимость с несколькими терминалами. Автор изменен на Серги Перич.</p>
-        <p xml:lang="ro">Detectare și selecție avansată a partițiilor și subvolumelor btrfs în mediul chroot. Suport complet pentru montarea /home ca partiție sau subvolum btrfs. Îmbunătățirea robustetei fluxului de recuperare și compatibilitatea cu mai multe terminale. Autor schimbat în Sergi Perich.</p>
-      </description>
-    </release>
-    <release version="1.0.6" date="2025-07-10">
-      <description>
-        <p>Added full btrfs subvolume support in CHROOT recovery, removed NumLockX, and revised all dictionary strings.</p>
-        <p xml:lang="es">Soporte completo para subvolúmenes btrfs en recuperación CHROOT, eliminación de NumLockX y revisión de todas las cadenas de texto de los diccionarios.</p>
-        <p xml:lang="en">Added full btrfs subvolume support in CHROOT recovery, removed NumLockX, and revised all dictionary strings.</p>
-        <p xml:lang="fr">Prise en charge complète des sous-volumes btrfs dans la récupération CHROOT, suppression de NumLockX et révision de toutes les chaînes de texte des dictionnaires.</p>
-        <p xml:lang="pt">Suporte completo para subvolumes btrfs na recuperação CHROOT, remoção do NumLockX e revisão de todas as cadeias de texto dos dicionários.</p>
-        <p xml:lang="de">Vollständige Unterstützung für btrfs-Subvolumes in der CHROOT-Wiederherstellung, Entfernung von NumLockX und Überarbeitung aller Wörterbuch-Textketten.</p>
-        <p xml:lang="it">Supporto completo ai subvolumi btrfs nel recupero CHROOT, rimozione di NumLockX e revisione di tutte le stringhe dei dizionari.</p>
-        <p xml:lang="ru">Полная поддержка подтомов btrfs в восстановлении CHROOT, удаление NumLockX и пересмотр всех строк словарей.</p>
-        <p xml:lang="ro">Suport complet pentru subvolume btrfs în recuperarea CHROOT, eliminarea NumLockX și revizuirea tuturor șirurilor de text din dicționare.</p>
-        <ul>
-          <li>Full btrfs subvolume support in CHROOT recovery</li>
-          <li>Complete removal of NumLockX</li>
-          <li>All dictionary strings revised and corrected</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.5" date="2025-07-10">
-      <description>
-        <p>Major feature update with complete btrfs support and international development standards</p>
-        <p xml:lang="es">Actualización mayor con soporte completo para btrfs y estándares de desarrollo internacional</p>
-        <p xml:lang="en">Major feature update with complete btrfs support and international development standards</p>
-        <p xml:lang="fr">Mise à jour majeure avec support complet pour btrfs et standards de développement international</p>
-        <p xml:lang="pt">Atualização maior com suporte completo para btrfs e padrões de desenvolvimento internacional</p>
-        <p xml:lang="de">Große Funktionsaktualisierung mit vollständiger btrfs-Unterstützung und internationalen Entwicklungsstandards</p>
-        <p xml:lang="it">Aggiornamento maggiore con supporto completo per btrfs e standard di sviluppo internazionale</p>
-        <p xml:lang="ru">Крупное обновление функций с полной поддержкой btrfs и международными стандартами разработки</p>
-        <p xml:lang="ro">Actualizare majoră cu suport complet pentru btrfs și standarde de dezvoltare internațională</p>
-        <ul>
-          <li>Complete btrfs filesystem support with subvolume detection and mounting</li>
-          <li>Intelligent subvolume suggestions for major distributions (openSUSE, Fedora, Ubuntu, Arch)</li>
-          <li>Enhanced btrfs UI with hierarchical subvolume selection interface</li>
-          <li>Universal distribution compatibility for system recovery operations</li>
-          <li>Robust error handling for complex btrfs configurations</li>
-          <li>Full internationalization with technical comments in English for development</li>
-          <li>Professional-grade recovery tools surpassing commercial solutions</li>
-          <li>Advanced filesystem validation before CHROOT mounting</li>
-          <li>Support for mixed filesystem configurations (btrfs + traditional)</li>
-          <li>Comprehensive btrfs pattern recognition for automatic configuration</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.4" date="2024-01-28">
-      <description>
-        <p>Major feature update with advanced CHROOT recovery and complete internationalization</p>
-        <p xml:lang="es">Actualización mayor con recuperación CHROOT avanzada e internacionalización completa</p>
-        <p xml:lang="en">Major feature update with advanced CHROOT recovery and complete internationalization</p>
-        <p xml:lang="fr">Mise à jour majeure avec récupération CHROOT avancée et internationalisation complète</p>
-        <p xml:lang="pt">Atualização maior com recuperação CHROOT avançada e internacionalização completa</p>
-        <p xml:lang="de">Große Funktionsaktualisierung mit erweiterter CHROOT-Wiederherstellung und vollständiger Internationalisierung</p>
-        <p xml:lang="it">Aggiornamento maggiore con recupero CHROOT avanzato e internazionalizzazione completa</p>
-        <p xml:lang="ru">Крупное обновление функций с продвинутым восстановлением CHROOT и полной интернационализацией</p>
-        <p xml:lang="ro">Actualizare majoră cu recuperare CHROOT avansată și internaționalizare completă</p>
-        <ul>
-          <li>Advanced CHROOT recovery system with intelligent partition detection</li>
-          <li>Complete internationalization for 8 languages with mnemonics</li>
-          <li>NumLock management integration</li>
-          <li>Automatic XDG folders migration when changing language</li>
-          <li>Real-time Python cache cleanup and memory optimization</li>
-          <li>Robust filesystem validation for CHROOT operations</li>
-          <li>Enhanced UI with professional design and accessibility</li>
-          <li>GParted integration for disk management</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.3" date="2024-01-26">
-      <description>
-        <p>Internationalization improvements and locale configuration fixes</p>
-        <p xml:lang="es">Mejoras de internacionalización y correcciones de configuración de locale</p>
-        <p xml:lang="en">Internationalization improvements and locale configuration fixes</p>
-      </description>
-    </release>
-    <release version="1.0.2" date="2024-01-25">
-      <description>
-        <p>Hardware detection improvements and CHROOT operation fixes</p>
-        <p xml:lang="es">Mejoras en detección de hardware y correcciones en operaciones CHROOT</p>
-        <p xml:lang="en">Hardware detection improvements and CHROOT operation fixes</p>
-      </description>
-    </release>
-    <release version="1.0.1" date="2024-01-24">
-      <description>
-        <p>Minor bug fixes and UI improvements</p>
-        <p xml:lang="es">Correcciones menores y mejoras de interfaz</p>
-        <p xml:lang="en">Minor bug fixes and UI improvements</p>
+        <p>Internationalization refactor and BTRFS fixes.</p>
       </description>
     </release>
     <release version="1.0.0" date="2024-01-27">
       <description>
-        <p>Initial release with basic welcome interface and CHROOT functionality</p>
-        <p xml:lang="es">Versión inicial con interfaz básica de bienvenida y funcionalidad CHROOT</p>
-        <p xml:lang="en">Initial release with basic welcome interface and CHROOT functionality</p>
-        <p xml:lang="fr">Version initiale avec interface de bienvenue de base et fonctionnalité CHROOT</p>
-        <p xml:lang="pt">Versão inicial com interface básica de boas-vindas e funcionalidade CHROOT</p>
-        <p xml:lang="de">Erste Version mit grundlegender Willkommensschnittstelle und CHROOT-Funktionalität</p>
-        <p xml:lang="it">Versione iniziale con interfaccia di benvenuto di base e funzionalità CHROOT</p>
-        <p xml:lang="ru">Начальная версия с базовым интерфейсом приветствия и функциональностью CHROOT</p>
-        <p xml:lang="ro">Versiune inițială cu interfață de bun venit de bază și funcționalitate CHROOT</p>
+        <p>Initial release with basic welcome interface and CHROOT functionality.</p>
       </description>
     </release>
   </releases>
 
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-  </content_rating>
+  <content_rating type="oars-1.1" />
 
   <languages>
     <lang percentage="100">es</lang>
@@ -408,4 +258,5 @@
     <lang percentage="100">ru</lang>
     <lang percentage="100">ro</lang>
   </languages>
+
 </component>

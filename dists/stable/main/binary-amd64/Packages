@@ -171,18 +171,18 @@ Replaces: base-files
 Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
 
 Package: soplos-repo-selector
-Version: 1.0.4
+Version: 2.0.0
 Architecture: all
-Depends: python3 (>= 3.8), python3-gi, apt, curl, debhelper-compat, gettext, gir1.2-gtk-3.0, gnupg, python3, python3-gi, python3-requests, python3-setuptools
+Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-apt, python3-gi, python3-gi-cairo, python3-pillow, python3-psutil, python3-setuptools, python3-xdg, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_1.0.4_all.deb
-Size: 1096680
-SHA256: f9d6398d594baea79cedca8df94abbd34b293871f5cdd775e72a7049c5bb10f8
-SHA1: dd8f53c6d857dadf11b52699bfa52634b6514f94
-MD5sum: c31180015ccd92a76107600af0fd2d10
-Description: Repository manager for Soplos Linux with multilingual support
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.0_all.deb
+Size: 1228364
+SHA256: de2769b7a88739dc82933d4e5e6b2c3218aba5dc15052b54e28f40dd3f450eab
+SHA1: df278a0886ba6593306f09e347c05ffc759d7b4f
+MD5sum: 1a700eadf5d1482b50a42d17e9283e00
+Description: Advanced APT repository manager for Debian-based systems
 
 Package: soplos-theme-manager
 Version: 1.0.3
@@ -229,30 +229,30 @@ Description: Fondos de pantalla para SopLOS
  para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-welcome
-Version: 1.1.4
+Version: 2.0.0
 Architecture: all
-Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
+Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.1.4_all.deb
-Size: 18535564
-SHA256: 8d1742dd9f458febbcf56e984b44c5013a8b5f8aedd49e6b8bcab4419a424792
-SHA1: 9ceae143aa65c84f8b27a8e79ec12fcec36083c5
-MD5sum: c518c33981cb33886fe27efa67c4b4f6
-Description: Welcome screen for Soplos Linux
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.0_all.deb
+Size: 44752176
+SHA256: a3dd79b4750eed90dfc3e39012e6309990c4e3b55654199be9c9146b3b1f65ff
+SHA1: a2986f9db601a57fbc4a0b1c8fe152716dad9177
+MD5sum: c3ac1716dff4b9fdb80d8c14a7c68d8c
+Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live
-Version: 1.1.2
+Version: 2.0.0
 Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-psutil, python3-setuptools, x11-xkb-utils
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.1.2_all.deb
-Size: 1218304
-SHA256: e6e266801cc8ea3db4bc0fac0afaddb723edc283d9c43eb55a1a147ddabb9061
-SHA1: 2b3bb3d5a62af74c483a952cf595373b0f650657
-MD5sum: f6d6ab6a237006da76c3b36b63f36d96
-Description: Advanced welcome screen with CHROOT recovery and btrfs support for Soplos Linux Live
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.0_all.deb
+Size: 1233252
+SHA256: ffbca0290fb2d87d7c714092c73963e94efb6a9a48a239a3be6f37566530693a
+SHA1: 95c79e1910d0b4c5c43948194a4ad2e0b82beaeb
+MD5sum: fae8355bad4130fc71a3d714b699f4a9
+Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 

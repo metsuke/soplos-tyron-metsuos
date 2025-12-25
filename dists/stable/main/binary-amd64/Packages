@@ -134,21 +134,6 @@ SHA1: 26bb5e32b8fe59f078905971737ac05cdf49bfa3
 MD5sum: 3aae07babb9804897e1ac29b5575f2de
 Description: Plymouth boot splash theme manager for Soplos Linux
 
-Package: soplos-plymouth-theme
-Version: 0.0.2
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Priority: optional
-Section: misc
-Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.2_all.deb
-Size: 666236
-SHA256: 192644f090677fc59909277ccff3e6fa3d315869fed0120b02d157d6ac5b8d6c
-SHA1: 9b2698c03ee4275ac1499a06c659d5c91d7957f9
-MD5sum: 4c8ea2d7e451761fe0864d7101541ecf
-Description: Soplos Plymouth theme.
- This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
- Build date: 2025-12-20
-
 Package: soplos-release
 Version: 0.2.3
 Architecture: all

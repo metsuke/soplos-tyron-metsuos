@@ -31,6 +31,25 @@ Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
 
+Package: grub-btrfs
+Version: 1.0-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 122
+Pre-Depends: inotify-tools
+Depends: bash, btrfs-progs, gawk, grub | grub2
+Homepage: https://github.com/Antynea/grub-btrfs
+Priority: optional
+Section: utils
+Filename: pool/main/g/grub-btrfs/grub-btrfs_1.0-1_all.deb
+Size: 30584
+SHA256: e4de3a22fdd9692c7356f8f105319427452642e6f67448a7c82d37bbb746e344
+SHA1: 527a413079aff40431ad29c0bd0fbb0bf4b5dc22
+MD5sum: 7aff221da7ed91eb845ade3f9d8e3e1b
+Description: Adds a Btrfs snapshots submenu to GRUB
+ grub-btrfs automatically detects Btrfs snapshots and generates
+ GRUB menu entries to boot into snapshots.
+
 Package: kitty-soplos
 Version: 0.0.3
 Architecture: all

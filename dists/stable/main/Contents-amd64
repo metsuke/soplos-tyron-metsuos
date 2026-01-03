@@ -96,6 +96,8 @@ usr/share/branding-soplos/soplos/show.qml	    misc/branding-soplos
 usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
+usr/share/doc/grub-btrfs/changelog.Debian.gz	    utils/grub-btrfs
+usr/share/doc/grub-btrfs/copyright	    utils/grub-btrfs
 usr/share/icons/hicolor/128x128/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui

@@ -15,7 +15,11 @@ etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
 etc/apt/sources.list.d/tyron.list	    admin/soplos-release
+etc/conf.d/grub-btrfsd.confd	    utils/grub-btrfs
 etc/default/grub	    misc/soplos-grub-theme
+etc/default/grub-btrfs/config	    utils/grub-btrfs
+etc/grub.d/41_snapshots-btrfs	    utils/grub-btrfs
+etc/init.d/grub-btrfsd.initd	    utils/grub-btrfs
 etc/skel/.bashrc	    utils/kitty-soplos
 etc/skel/.config/Thunar/uca.xml	    utils/kitty-soplos
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
@@ -23,6 +27,8 @@ etc/skel/.config/kitty/kitty.conf	    utils/kitty-soplos
 etc/skel/.config/kitty/soplos_linux.conf	    utils/kitty-soplos
 etc/skel/.config/xfce4/helpers.rc	    utils/kitty-soplos
 etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml	    utils/kitty-soplos
+lib/systemd/system/grub-btrfsd.service	    utils/grub-btrfs
+usr/bin/grub-btrfsd	    utils/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-docklike	    utils/soplos-docklike
 usr/bin/soplos-grub-editor	    utils/soplos-grub-editor
@@ -96,6 +102,8 @@ usr/share/branding-soplos/soplos/show.qml	    misc/branding-soplos
 usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
+usr/share/doc/grub-btrfs/changelog.Debian.gz	    utils/grub-btrfs
+usr/share/doc/grub-btrfs/copyright	    utils/grub-btrfs
 usr/share/icons/hicolor/128x128/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -164,6 +172,9 @@ usr/share/icons/hicolor/64x64/apps/logo.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.reposelector.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/licenses/grub-btrfs/LICENSE	    utils/grub-btrfs
+usr/share/man/man8/grub-btrfs.8/grub-btrfs.8.man.gz	    utils/grub-btrfs
+usr/share/man/man8/grub-btrfsd.8/grub-btrfsd.8.man.gz	    utils/grub-btrfs
 usr/share/metainfo/com.soplos.docklike.metainfo.xml	    utils/soplos-docklike
 usr/share/metainfo/com.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
 usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-gui

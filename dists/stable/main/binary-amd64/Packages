@@ -103,17 +103,17 @@ MD5sum: 358e5470dbdfe18d0e02c527d0944e91
 Description: XFCE Dock icon manager
 
 Package: soplos-grub-editor
-Version: 1.0.4
+Version: 2.0.0
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.4_all.deb
-Size: 1028908
-SHA256: 2225b3fb223235e5459b0cd2eb3b2425011e486ed9dc850de8001fee507e64b0
-SHA1: dc761472a56e7b991d1a146d5d302077e36a4227
-MD5sum: 9562cae09d0a9dd765feb714467df6d0
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.0_all.deb
+Size: 1193528
+SHA256: 35cc87bb0e21c8c1997f24b300c0e75b4d50cc40caa919e930a738fefb448421
+SHA1: 435fbb8642304c761fedf9885eee410eb85b9d7e
+MD5sum: 0cad743b77e275b5a1fd15dbe686b650
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme

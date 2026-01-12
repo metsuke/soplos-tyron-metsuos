@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.grubeditor</id>
+  <id>org.soplos.grubeditor</id>
   <pkgname>soplos-grub-editor</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <project_group>com.soploslinux</project_group>
+  <project_group>org.soploslinux</project_group>
   
   <name>Soplos GRUB Editor</name>
   <name xml:lang="es">Editor GRUB de Soplos</name>
@@ -137,11 +137,11 @@
     <locale>ro</locale>
   </translation>
 
-  <launchable type="desktop-id">com.soplos.grubeditor.desktop</launchable>
+  <launchable type="desktop-id">org.soplos.grubeditor.desktop</launchable>
 
-  <icon type="stock">com.soplos.grubeditor</icon>
+  <icon type="stock">org.soplos.grubeditor</icon>
   <icon type="remote" width="128" height="128">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/org.soplos.grubeditor.png</url>
   </icon>
 
   <screenshots>
@@ -191,13 +191,13 @@
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-grub-editor/issues</url>
   <url type="donation">https://paypal.me/isubdes</url>
-  <url type="contact">https://soploslinux.com/contact/foros</url>
+  <url type="contact">https://soplos.org/forums</url>
   <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
 
-  <developer id="com.soploslinux">
+  <developer id="org.soploslinux">
     <name>Sergi Perich</name>
     <name xml:lang="en">Sergi Perich</name>
     <name xml:lang="es">Sergi Perich</name>
@@ -207,7 +207,7 @@
     <name xml:lang="it">Sergi Perich</name>
     <name xml:lang="ru">Серги Перич</name>
     <name xml:lang="ro">Sergi Perich</name>
-    <url type="homepage">https://soploslinux.com</url>
+    <url type="homepage">https://soplos.org</url>
   </developer>
 
   <provides>
@@ -215,9 +215,30 @@
   </provides>
 
   <releases>
+    <release version="2.0.0" date="2026-01-10">
+      <description>
+        <p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="es">Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.</p>
+        <p xml:lang="en">Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="fr">Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.</p>
+        <p xml:lang="pt">Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.</p>
+        <p xml:lang="de">Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.</p>
+        <p xml:lang="it">Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.</p>
+        <p xml:lang="ru">Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.</p>
+        <p xml:lang="ro">Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.</p>
+        <ul>
+          <li>Smart light/dark theme detection (GNOME, KDE, XFCE)</li>
+          <li>Improved desktop &amp; environment detection</li>
+          <li>Refined UI layout with compact view</li>
+          <li>GRUB theme installer and remover</li>
+          <li>Expanded resolution support (16:9, 16:10, 4:3, 4K)</li>
+          <li>UUID control option</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.4" date="2025-07-27">
       <description>
-        <p>Cambio de icono del programa.</p>
+        <p>Program icon changed.</p>
         <p xml:lang="es">Cambio de icono del programa.</p>
         <p xml:lang="en">Program icon changed.</p>
         <p xml:lang="fr">Changement de l'icône du programme.</p>
@@ -230,7 +251,7 @@
     </release>
     <release version="1.0.3" date="2025-07-18">
       <description>
-        <p>Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
+        <p>Metainfo updated for AppStream/DEP-11 compliance.</p>
         <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
         <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance.</p>
         <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11.</p>
@@ -266,7 +287,7 @@
           <li>Optimized file structure</li>
         </ul>
       </description>
-      <url>https://github.com/SoplosLinux/tyron/releases/tag/v1.0.2</url>
+      <url>https://github.com/SoplosLinux/soplos-grub-editor/releases/tag/v1.0.2</url>
     </release>
     <release version="1.0.1" date="2025-06-14">
       <description>

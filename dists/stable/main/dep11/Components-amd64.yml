@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media
-Time: 20260112T104208
+Time: 20260112T110501
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1838,7 +1838,7 @@ Releases:
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.grubeditor
+ID: org.soplos.grubeditor
 ProjectLicense: GPL-3.0-or-later
 Package: soplos-grub-editor
 Name:
@@ -1940,20 +1940,38 @@ Icon:
     - name: com.soplos.grubeditor.png
       width: 48
       height: 48
+    - name: org.soplos.grubeditor.png
+      width: 48
+      height: 48
     - name: com.soplos.grubeditor.png
       width: 64
       height: 64
+    - name: org.soplos.grubeditor.png
+      width: 64
+      height: 64
     - name: com.soplos.grubeditor.png
+      width: 128
+      height: 128
+    - name: org.soplos.grubeditor.png
       width: 128
       height: 128
   remote:
     - url: soplos-grub-editor/icons/48x48/com.soplos.grubeditor.png
       width: 48
       height: 48
+    - url: soplos-grub-editor/icons/48x48/org.soplos.grubeditor.png
+      width: 48
+      height: 48
     - url: soplos-grub-editor/icons/64x64/com.soplos.grubeditor.png
       width: 64
       height: 64
+    - url: soplos-grub-editor/icons/64x64/org.soplos.grubeditor.png
+      width: 64
+      height: 64
     - url: soplos-grub-editor/icons/128x128/com.soplos.grubeditor.png
+      width: 128
+      height: 128
+    - url: soplos-grub-editor/icons/128x128/org.soplos.grubeditor.png
       width: 128
       height: 128
 Screenshots:
@@ -2016,21 +2034,43 @@ Screenshots:
       type: image/png
 Launchable:
   desktop-id:
-    - com.soplos.grubeditor.desktop
+    - org.soplos.grubeditor.desktop
 Url:
-  homepage: https://soploslinux.com
-  bugtracker: https://github.com/SoplosLinux/tyron/issues
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-grub-editor/issues
   donation: https://paypal.me/isubdes
-  contact: https://soploslinux.com/contact/foros
+  contact: https://soplos.org/forums
   vcs-browser: https://github.com/SoplosLinux/tyron
 Developer:
-  id: com.soploslinux
+  id: org.soploslinux
   name:
     C: Soplos Team
-  url: https://soploslinux.com
+  url: https://soplos.org
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.0
+    date: '2026-01-10'
+    type: stable
+    description:
+      C: |-
+        Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.
+      es: |-
+        Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.
+      en: |-
+        Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.
+      fr: |-
+        Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.
+      pt: |-
+        Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.
+      de: |-
+        Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.
+      it: |-
+        Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.
+      ru: |-
+        Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.
+      ro: |-
+        Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.
   - version: 1.0.4
     date: '2025-07-27'
     type: stable
